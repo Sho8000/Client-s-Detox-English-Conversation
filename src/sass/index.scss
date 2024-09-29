@@ -3,3 +3,99 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+
+a{
+  text-decoration: none;
+}
+
+main{
+  padding-top: 140px;
+}
+
+#app{
+/////Header//////////
+  #header{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    padding-top: 15px;
+    background-color: aquamarine;
+    .header__icons__area{
+      width: 90%;
+      margin: 0 auto 24px;
+      .header__icons{
+        display: flex;
+        justify-content: right;
+        gap: 15px;
+      }
+    }
+  
+    .header__nav__PC{
+      width: 90%;
+      height: 45px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header__ulContainer{
+        .header__ul{
+          display: flex;
+          align-items: center;
+          list-style: none;
+          gap: 24px;
+          .header__li{
+            a{
+              color: black;
+            }
+          }
+          .header__li__LINE{
+            width: 142px;
+            line-height: 100%;
+            border-radius: 5px;
+            background-color: #00B800;
+            color: white;
+            border: none;
+  
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+
+  /////Footer//////////
+  #footer{
+    width: 100%;
+    height: 140px;
+    background-color: #1C6F46;
+    color: white;
+    place-content: center;
+    .footer__container{
+      width: 90%;
+      height: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      .footer__title{
+
+      }
+      .footer__ulContainer{
+        .footer__ul{
+          list-style: none;
+          display: flex;
+          gap: 56px;
+          .footer__li{
+            a{
+              color: white;
+            }
+          }
+        }
+      }
+      .footer__icons{
+        display: flex;
+        gap: 15px;
+      }
+    }
+  }
+}
