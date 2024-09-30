@@ -19,7 +19,6 @@ main{
     height: 125px;
     position: fixed;
     padding-top: 15px;
-    background-color: aquamarine;
     .header__icons__area{
       width: 90%;
       margin: 0 auto 24px;
@@ -77,9 +76,7 @@ main{
       justify-content: space-between;
       align-items: center;
       margin: auto;
-      .footer__title{
-
-      }
+//      .footer__title{}
       .footer__ulContainer{
         .footer__ul{
           list-style: none;
