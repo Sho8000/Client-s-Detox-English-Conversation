@@ -8,7 +8,7 @@ let VoiceHTML
 let facebookIcon
 let instagramIcon
 let youtubeIcon
-if($("#app").hasClass(".indexPage")){
+if($("#app").hasClass("indexPage")){
   IndexHTML = "index.html";
   AboutHTML = "pages/About.html";
   MenuHTML = "pages/Menu.html";
@@ -28,7 +28,6 @@ if($("#app").hasClass(".indexPage")){
 
 export class Header extends Component{
   render(){
-    console.log("Header Here")
     const children = $(
 
       `<header id="${BASE_CLASS}">
@@ -43,7 +42,7 @@ export class Header extends Component{
         <h1 class="${BASE_CLASS}__title">AKIF Airways.</h1>
         <div class="${BASE_CLASS}__ulContainer">
           <ul class="${BASE_CLASS}__ul">
-            <li class="${BASE_CLASS}__li"><a href="${instagramIcon}">Home</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">Home</a></li>
             <li class="${BASE_CLASS}__li"><a href="${MenuHTML}">Menu</a></li>
             <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}">Voice</a></li>
             <li class="${BASE_CLASS}__li"><a href="${AboutHTML}">About</a></li>

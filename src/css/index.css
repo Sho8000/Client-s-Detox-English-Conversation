@@ -12,6 +12,10 @@ main {
   padding-top: 140px;
 }
 
+.indexPage main #heroSection {
+  height: 560px !important;
+}
+
 #app #header {
   width: 100%;
   height: 125px;
@@ -52,6 +56,35 @@ main {
   color: white;
   border: none;
   margin: auto;
+}
+#app main #heroSection {
+  width: 100%;
+  height: 210px;
+}
+#app main #heroSection .hero {
+  width: 100%;
+  height: 100%;
+  place-content: center;
+  background-size: cover;
+  background-position: 50%, 50%;
+}
+#app main #heroSection .hero .hero__title {
+  width: fit-content;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+#app main #heroSection .IndexPage__hero {
+  background-image: url(../resource/Index_hero.png);
+}
+#app main #heroSection .AboutPage__hero {
+  background-image: url(../resource/About_hero.png);
+}
+#app main #heroSection .VoicePage__hero {
+  background-image: url(../resource/Menu_hero.png);
+}
+#app main #heroSection .MenuPage__hero {
+  background-image: url(../resource/Menu_hero.png);
 }
 #app #footer {
   width: 100%;
