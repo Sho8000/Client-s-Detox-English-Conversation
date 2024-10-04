@@ -1,3 +1,6 @@
+// Commonpart CSS
+// body offset, header, footer, hero section
+
 body{
   margin: 0;
   padding: 0;
@@ -27,6 +30,7 @@ main{
     height: 125px;
     position: fixed;
     padding-top: 15px;
+    background-color: white;
     .header__icons__area{
       width: 90%;
       margin: 0 auto 24px;

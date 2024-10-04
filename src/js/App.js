@@ -2,6 +2,7 @@ import { Component } from "./common/component.js";
 import { Footer } from "./components/Footer.js";
 import { Header } from "./components/Header.js";
 import { Hero } from "./components/Hero.js";
+import { Voice } from "./components/Voice.js";
 
 export class App extends Component{
   render(){
@@ -12,6 +13,7 @@ export class App extends Component{
     )
     this.parentElement.append(children)
     new Hero(children);
+    new Voice(children);
 
     new Footer(this.parentElement);
   }

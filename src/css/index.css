@@ -21,6 +21,7 @@ main {
   height: 125px;
   position: fixed;
   padding-top: 15px;
+  background-color: white;
 }
 #app #header .header__icons__area {
   width: 90%;
