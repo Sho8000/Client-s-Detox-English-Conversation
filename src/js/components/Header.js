@@ -5,6 +5,7 @@ let IndexHTML
 let AboutHTML
 let MenuHTML
 let VoiceHTML
+let BlogHTML
 let facebookIcon
 let instagramIcon
 let youtubeIcon
@@ -13,6 +14,7 @@ if($("#app").hasClass("indexPage")){
   AboutHTML = "pages/About.html";
   MenuHTML = "pages/Menu.html";
   VoiceHTML = "pages/Voice.html";
+  BlogHTML = "pages/Blog.html";
   facebookIcon = "resource/facebook.png";
   instagramIcon = "resource/instagram.png";
   youtubeIcon = "resource/youtube.png";
@@ -21,6 +23,7 @@ if($("#app").hasClass("indexPage")){
   AboutHTML = "../pages/About.html";
   MenuHTML = "../pages/Menu.html";
   VoiceHTML = "../pages/Voice.html";
+  BlogHTML = "../pages/Blog.html";
   facebookIcon = "../resource/facebook.png";
   instagramIcon = "../resource/instagram.png";
   youtubeIcon = "../resource/youtube.png";
@@ -46,6 +49,7 @@ export class Header extends Component{
             <li class="${BASE_CLASS}__li"><a href="${MenuHTML}">Menu</a></li>
             <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}">Voice</a></li>
             <li class="${BASE_CLASS}__li"><a href="${AboutHTML}">About</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${BlogHTML}">Blog</a></li>
             <li class="${BASE_CLASS}__li"><a href="https://line.me/R/ti/p/@dih3004d?ts=08061721&oat_content=url"><button class="${BASE_CLASS}__li__LINE"><p>LINEでご相談！</p></button></a></li>
           </ul>
         </div>
