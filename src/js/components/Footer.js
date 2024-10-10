@@ -47,9 +47,9 @@ export class Footer extends Component{
               </ul>
             </div>
             <div class="${BASE_CLASS}__icons">
-              <div><a href="https://www.facebook.com/AQUIXXX?mibextid=ZbWKwL"><img src="${facebookIcon}" alt="facebook"></a></div>
-              <div><a href="https://www.instagram.com/akifumitsukamoto777/?igsh=emkyOW1tdmpsencw&utm_source=qr"><img src="${instagramIcon}" alt="instagram"></a></div>
-              <div><a href="https://m.youtube.com/user/youtsubeful"><img src="${youtubeIcon}" alt="youtube"></a></div>  
+              <div><a href="${this.FacebookLink}"><img src="${facebookIcon}" alt="facebook"></a></div>
+              <div><a href="${this.InstagramLink}"><img src="${instagramIcon}" alt="instagram"></a></div>
+              <div><a href="${this.YoutubeLink}"><img src="${youtubeIcon}" alt="youtube"></a></div>  
             </div>
           </div>
         </footer>`
