@@ -43,22 +43,24 @@ export class Voice extends Component{
       </section>`
     );
 
-    for(let i=0;i<8;i++){
-      let addVoiceCard = $(
-        `<div class="VoiceCard">
-          <div class="VoiceImg">
-            <img src="${Pictures[i]}" alt="">
-          </div>
-          <div class="VoiceComment">
-            <h2>${voiceTitle[i]}</h2>
-            <p>${customerVoice[i]}</p>
-          </div>
-        </div>`
-      );
+    if($("#app").hasClass("VoicePage")){
+      for(let i=0;i<8;i++){
+        let addVoiceCard = $(
+          `<div class="VoiceCard">
+            <div class="VoiceImg">
+              <img src="${Pictures[i]}" alt="">
+            </div>
+            <div class="VoiceComment">
+              <h2>${voiceTitle[i]}</h2>
+              <p>${customerVoice[i]}</p>
+            </div>
+          </div>`
+        );
       children.find(".VoiceCardContainer").append(addVoiceCard);
-    }
+      }
 
-    this.parentElement.append(children);
+      this.parentElement.append(children);
+    }
 
   }
 }
