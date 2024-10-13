@@ -1,6 +1,10 @@
 // Commonpart CSS
 // body offset, header, footer, hero section
 
+$HeaderBG:white;
+$LineBG:#00B800;
+$FooterBG:#0095A7;
+
 body{
   margin: 0;
   padding: 0;
@@ -30,7 +34,7 @@ main{
     height: 125px;
     position: fixed;
     padding-top: 15px;
-    background-color: white;
+    background-color: $HeaderBG;
     .header__icons__area{
       width: 90%;
       margin: 0 auto 24px;
@@ -63,7 +67,7 @@ main{
             width: 142px;
             line-height: 100%;
             border-radius: 5px;
-            background-color: #00B800;
+            background-color: $LineBG;
             color: white;
             border: none;
   
@@ -97,7 +101,7 @@ main{
   #footer{
     width: 100%;
     height: 140px;
-    background-color: #1C6F46;
+    background-color: $FooterBG;
     color: white;
     place-content: center;
     .footer__container{

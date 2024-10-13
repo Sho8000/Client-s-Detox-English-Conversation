@@ -1,5 +1,6 @@
 import { Component } from "./common/component.js";
 import { About } from "./components/About.js";
+import { Blog } from "./components/Blog.js";
 import { Footer } from "./components/Footer.js";
 import { Header } from "./components/Header.js";
 import { Hero } from "./components/Hero.js";
@@ -16,6 +17,7 @@ export class App extends Component{
     new Hero(children);
     new Voice(children);
     new About(children);
+    new Blog(children);
 
     new Footer(this.parentElement);
   }
