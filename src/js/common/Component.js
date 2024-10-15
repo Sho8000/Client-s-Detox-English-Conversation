@@ -2,6 +2,7 @@ export class Component {
   #parentElement;
   #props;
   #context;
+  #websiteName;
   #LineLink;
   #YoutubeLink;
   #FacebookLink;
@@ -11,6 +12,7 @@ export class Component {
     this.#parentElement = parentElement;
     this.#props = props;
     this.#context = context;
+    this.#websiteName = "AKIF Airways."
     this.#LineLink = "https://line.me/R/ti/p/@dih3004d?ts=08061721&oat_content=url";
     this.#YoutubeLink = "https://m.youtube.com/user/youtsubeful";
     this.#FacebookLink = "https://www.facebook.com/AQUIXXX?mibextid=ZbWKwL";
@@ -30,6 +32,10 @@ export class Component {
 
   get context(){
     return this.#context;
+  }
+
+  get websiteName(){
+    return this.#websiteName;
   }
 
   get LineLink(){

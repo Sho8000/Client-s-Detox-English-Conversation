@@ -42,7 +42,7 @@ export class Header extends Component{
         </div>
       </div>
       <nav class="${BASE_CLASS}__nav__PC">
-        <h1 class="${BASE_CLASS}__title">AKIF Airways.</h1>
+        <h1 class="${BASE_CLASS}__title">${this.websiteName}</h1>
         <div class="${BASE_CLASS}__ulContainer">
           <ul class="${BASE_CLASS}__ul">
             <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">Home</a></li>

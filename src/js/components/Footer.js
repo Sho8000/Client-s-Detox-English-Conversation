@@ -36,7 +36,7 @@ export class Footer extends Component{
       children = $(
         `<footer id="${BASE_CLASS}">
           <div class="${BASE_CLASS}__container">
-            <h2 class="${BASE_CLASS}__title">AKIF Airways.</h2>
+            <h2 class="${BASE_CLASS}__title">${this.websiteName}</h2>
             <div class="${BASE_CLASS}__ulContainer">
               <ul class="${BASE_CLASS}__ul">
                 <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">Home</a></li>
