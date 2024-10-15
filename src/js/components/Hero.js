@@ -24,7 +24,7 @@ if($("#app").hasClass("AboutPage")){
 } else if($("#app").hasClass("indexPage")){
   hero__title = "MainPage, Input something"
   Page = "IndexPage"
-  BackgroundImg = "url(../resource/Index_hero.png)"
+  BackgroundImg = "url(resource/Hero-section-akimoto.png)"
 }
 
 export class Hero extends Component{
