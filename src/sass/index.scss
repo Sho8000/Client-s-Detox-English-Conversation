@@ -23,6 +23,33 @@ main{
   main{
     #heroSection{
       height: 560px !important;
+      .IndexPage__hero{
+        .IndexPage__hero__container{
+          width: 80%;
+          margin: auto;
+          place-content: left;
+          .hero__title{
+            text-align: left !important;
+            margin-left: 0 !important;
+          }
+          .hero__comment{
+            color: white;
+          }
+        }
+        .LineLink{
+          width: 80%;
+          margin: auto;
+          .lineBtn{
+            width: 142px;
+            line-height: 45px;
+            border-radius: 5px;
+            background-color: $LineBG;
+            color: white;
+            border: none;
+            margin: auto;
+          }
+        }  
+      }
     }
   }
 }

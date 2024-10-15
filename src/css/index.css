@@ -15,6 +15,31 @@ main {
 .indexPage main #heroSection {
   height: 560px !important;
 }
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container {
+  width: 80%;
+  margin: auto;
+  place-content: left;
+}
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container .hero__title {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container .hero__comment {
+  color: white;
+}
+.indexPage main #heroSection .IndexPage__hero .LineLink {
+  width: 80%;
+  margin: auto;
+}
+.indexPage main #heroSection .IndexPage__hero .LineLink .lineBtn {
+  width: 142px;
+  line-height: 45px;
+  border-radius: 5px;
+  background-color: #00B800;
+  color: white;
+  border: none;
+  margin: auto;
+}
 
 #app #header {
   width: 100%;
