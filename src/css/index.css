@@ -45,6 +45,7 @@ main {
   width: 100%;
   height: 125px;
   position: fixed;
+  z-index: 999;
   padding-top: 15px;
   background-color: white;
 }
