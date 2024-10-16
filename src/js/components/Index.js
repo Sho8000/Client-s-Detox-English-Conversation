@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents } from "../common/Variable.js";
+import { IndexContents, IndexSubbomment } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -22,10 +22,39 @@ export class Index extends Component{
         const eachSections = $(
           `<div class="${BASE_CLASS}__items ${IndexContents[i]} ${odd}"></div>`
         )
-
         children.find(`.${BASE_CLASS}__container`).append(eachSections)
+
+        //add each content
+        let eachContents;
+        switch (IndexContents[i]) {
+          case "Youtube":
+            
+            break;
+
+          case "Maincomment":
+            
+            break;
+
+          case "Course":
+            
+            break;
+
+          case "Subcomment":
+            eachContents = $(
+              `<div>hello<div>`
+            )
+            children.find(".Subcomment").append(eachContents)
+            break;
+
+          case "Voice":
+            
+            break;
+
+          default:
+            break;
+        }
       }
- 
+
       this.parentElement.append(children);
     }
   }
