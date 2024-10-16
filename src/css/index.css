@@ -106,6 +106,34 @@ main {
 #app main #indexPage__contents .indexPage__container .indexPage__items {
   min-height: 450px;
 }
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  gap: 2rem;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .comments {
+  width: 50%;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .comments h2 {
+  margin-top: 0;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images {
+  position: relative;
+  width: 50%;
+  height: 460px;
+  background-image: url(../resource/plant.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .Banana {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: calc(100% - 100px);
+  top: -50px;
+}
 #app main #indexPage__contents .odd {
   background-color: #F2F0E9;
 }

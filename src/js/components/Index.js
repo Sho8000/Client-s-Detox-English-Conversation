@@ -41,7 +41,15 @@ export class Index extends Component{
 
           case "Subcomment":
             eachContents = $(
-              `<div>hello<div>`
+              `<div class="SubcommentContainer">
+                <div class="comments">
+                  <h2>${IndexSubbomment[0]}</h2>
+                  <p>${IndexSubbomment[1]}</p>
+                </div>
+                <div class="images">
+                  <img src="resource/Banana-bud.png" alt="" class="Banana">
+                </div>
+              </div>`
             )
             children.find(".Subcomment").append(eachContents)
             break;

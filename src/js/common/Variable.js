@@ -11,7 +11,6 @@ export const IndexSubbomment = [
   `わたしは４歳の時から植物が好きでした。きっかけは園長先生がわたしにワタの木の苗をくれたところから始まります。<br>それから色んなものを育てるようになり、園芸店に行くのが大好きでした。<br>そして、お店に着いて真っ先に行くところが、「見切り品コーナー」。子どもなので安いからというところでそこに行く訳ではありませんでした。なぜ、そのコーナーに行くかというと、まだ「可能性」のあるものが捨てられるのが悲しかったからなんです。<br>なので多年草で来年も咲く可能性があるものを真っ先に手に取ってお家に持って帰り植え替えて、秋を迎え、冬を迎え、新芽が出てきて、翌春に花を咲かせていました。そうやって、まだ可能性のある子たちを助け出すのが小さい時から好きだったんです。<br>わたしたちは「可能性」があるにも関わらず捨ててしまったり、なかったことにしてしまうのが得意です。<br>「いやいや私には無理ですよ」<br>「全然わかりません」<br>「もう歳なんで」<br>わたしはそれを聞き逃したくない。`
 ]
 
-
 //Voice variables
 export const Pictures = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/yLFTjinxeHg?si=WEMLY88Fzu5uZcLS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
