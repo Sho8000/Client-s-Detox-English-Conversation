@@ -100,6 +100,15 @@ main {
   color: white;
   text-align: center;
 }
+#app main #indexPage__contents {
+  width: 100%;
+}
+#app main #indexPage__contents .indexPage__container .indexPage__items {
+  min-height: 450px;
+}
+#app main #indexPage__contents .odd {
+  background-color: #F2F0E9;
+}
 #app #footer {
   width: 100%;
   height: 140px;

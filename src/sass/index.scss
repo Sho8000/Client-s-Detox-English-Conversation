@@ -123,6 +123,17 @@ main{
         }  
       }
     }
+    #indexPage__contents{
+      width: 100%;
+      .indexPage__container{
+        .indexPage__items{
+          min-height: 450px;
+        }
+      }
+      .odd{
+        background-color: #F2F0E9;
+      }  
+    }
   }
   /////Footer//////////
   #footer{

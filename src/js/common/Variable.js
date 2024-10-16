@@ -1,3 +1,12 @@
+//Index variables
+export const IndexContents = [
+  `Youtube`,
+  `Course`,
+  `Maincomment`,
+  `Subcomment`,
+  `Voice`
+]
+
 //Voice variables
 export const Pictures = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/yLFTjinxeHg?si=WEMLY88Fzu5uZcLS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,

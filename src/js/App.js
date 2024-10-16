@@ -4,6 +4,7 @@ import { Blog } from "./components/Blog.js";
 import { Footer } from "./components/Footer.js";
 import { Header } from "./components/Header.js";
 import { Hero } from "./components/Hero.js";
+import { Index } from "./components/Index.js";
 import { Voice } from "./components/Voice.js";
 
 export class App extends Component{
@@ -15,6 +16,7 @@ export class App extends Component{
     )
     this.parentElement.append(children)
     new Hero(children);
+    new Index(children);
     new Voice(children);
     new About(children);
     new Blog(children);
