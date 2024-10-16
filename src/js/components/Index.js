@@ -32,7 +32,19 @@ export class Index extends Component{
             break;
 
           case "Maincomment":
-            
+            eachContents = $(
+              `<div class="comments">
+                <div class="mainComment">
+                  <img src="resource/Group.png" alt="mainComment">
+                </div>
+                <div class="lineBtn">
+                  <a href="${this.LineLink}"><button class="lineBtn"><p>LINEでご相談！</p></button></a></div>
+              </div>
+              <div class="mainPic">
+                <img src="resource/Tsukamoto-san.png" alt="mainPic">
+              </div>`
+            )
+            children.find(".Maincomment").append(eachContents)
             break;
 
           case "Course":
