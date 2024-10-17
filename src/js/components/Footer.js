@@ -1,4 +1,6 @@
 import { Component } from "../common/component.js";
+import { NavTitle } from "../common/Variable.js";
+
 
 const BASE_CLASS = "footer"
 let IndexHTML
@@ -39,11 +41,11 @@ export class Footer extends Component{
             <h2 class="${BASE_CLASS}__title">${this.websiteName}</h2>
             <div class="${BASE_CLASS}__ulContainer">
               <ul class="${BASE_CLASS}__ul">
-                <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">Home</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${MenuHTML}">Menu</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}">Voice</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${AboutHTML}">About</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${BlogHTML}">Blog</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">${NavTitle[0]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${MenuHTML}">${NavTitle[1]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}">${NavTitle[2]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${AboutHTML}">${NavTitle[3]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${BlogHTML}">${NavTitle[4]}</a></li>
               </ul>
             </div>
             <div class="${BASE_CLASS}__icons">

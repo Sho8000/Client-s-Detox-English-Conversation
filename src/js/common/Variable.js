@@ -1,3 +1,12 @@
+//Header and Footer
+export const NavTitle = [
+  `ホーム`,
+  `コース`,
+  `乗客の声`,
+  `自己紹介`,
+  `ブログ`
+]
+
 //Index variables
 export const IndexContents = [
   `Youtube`,
