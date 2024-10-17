@@ -1,6 +1,5 @@
 // Commonpart CSS
 // body offset, header, footer, hero section
-
 $HeaderBG:white;
 $LineBG:#00B800;
 $FooterBG:#0095A7;
@@ -106,6 +105,63 @@ main{
     }
   }
 
+  //Index swiper part
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 560px;
+    height: 300px;
+    position: relative;
+    //because using Youtube page
+    //can't swipe on the video
+    //so added transparent box to
+    //add the swipe function on video
+    .filterLeft{
+      position: absolute;
+      width: 120px;
+      height: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: transparent;
+    }
+    .filterRight{
+      position: absolute;
+      width: 120px;
+      height: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      background-color: transparent;
+    }
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  //Index main part
   main{
     #heroSection{
       width: 100%;

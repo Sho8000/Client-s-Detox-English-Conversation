@@ -84,6 +84,52 @@ main {
   border: none;
   margin: auto;
 }
+#app html,
+#app body {
+  position: relative;
+  height: 100%;
+}
+#app body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#app swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#app swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 560px;
+  height: 300px;
+  position: relative;
+}
+#app swiper-slide .filterLeft {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+#app swiper-slide .filterRight {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: transparent;
+}
+#app swiper-slide img {
+  display: block;
+  width: 100%;
+}
 #app main #heroSection {
   width: 100%;
   height: 210px;

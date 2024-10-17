@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents, IndexSubbomment } from "../common/Variable.js";
+import { IndexContents, IndexYoutube, IndexSubbomment } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -28,7 +28,26 @@ export class Index extends Component{
         let eachContents;
         switch (IndexContents[i]) {
           case "Youtube":
-            
+            eachContents = $(
+              `<swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                <swiper-slide>
+                  ${IndexYoutube[0]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
+                </swiper-slide>
+                <swiper-slide>
+                  ${IndexYoutube[1]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
+                </swiper-slide>
+                <swiper-slide>
+                  ${IndexYoutube[2]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
+                </swiper-slide>
+              </swiper-container>`
+              )
+              children.find(".Youtube").append(eachContents)
             break;
 
           case "Maincomment":
