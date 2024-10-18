@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents, IndexYoutube, IndexSubbomment } from "../common/Variable.js";
+import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -86,6 +86,29 @@ export class Index extends Component{
             break;
 
           case "Voice":
+            eachContents = $(
+              `<div class="voiceContainer">
+                <div class="titleContainer">
+                  <h2>乗客の声</h2>
+                  <img src="../resource/Banana-bud.png" alt="">
+                </div>
+                <div class="cardContainer"></div>
+                <div class="readMore">
+                  <h3>Read more ></h3>
+                </div>
+              </div>`
+            )
+            for(let i=0; i<4; i++){
+              const addIndexVoiceCard = $(
+                `<div class="voiceCard">
+                  <h2>${voiceTitle[i]}</h2>
+                  ${Pictures[i]}
+                </div>`
+              )
+              eachContents.find(".cardContainer").append(addIndexVoiceCard)
+            }
+
+            children.find(".Voice").append(eachContents)
             
             break;
 

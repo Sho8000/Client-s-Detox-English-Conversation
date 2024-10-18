@@ -225,6 +225,39 @@ main {
   left: calc(100% - 100px);
   top: -50px;
 }
+#app main #indexPage__contents .indexPage__container .voiceContainer {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer img {
+  height: 50px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 65px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
+  width: 520px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard h2 {
+  text-align: center;
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard iframe {
+  width: 100%;
+  height: 293px;
+}
+#app main #indexPage__contents .indexPage__container .readMore {
+  text-align: right;
+}
 #app main #indexPage__contents .odd {
   background-color: #F2F0E9;
 }
