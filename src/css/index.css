@@ -256,7 +256,9 @@ main {
   height: 293px;
 }
 #app main #indexPage__contents .indexPage__container .readMore {
+  width: 90%;
   text-align: right;
+  margin: auto;
 }
 #app main #indexPage__contents .odd {
   background-color: #F2F0E9;
