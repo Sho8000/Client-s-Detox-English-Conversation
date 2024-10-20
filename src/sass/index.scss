@@ -174,10 +174,18 @@ main{
         background-position: 50%,50%;
         .hero__title{
           width: fit-content;
-          margin: auto;
           color: white;
           text-align: center;
         }  
+      }
+      .heroSub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          height: 50px;
+          padding-left: 5px;
+        }
       }
     }
     #indexPage__contents{

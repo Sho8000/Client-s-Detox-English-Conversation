@@ -6,6 +6,7 @@ let hero__title;
 let Page;
 let BackgroundImg;
 let IndexParagraph;
+let TitleImg = "";
 if($("#app").hasClass("AboutPage")){
   hero__title = "自己紹介"
   Page = "AboutPage"
@@ -15,7 +16,8 @@ if($("#app").hasClass("AboutPage")){
   Page = "BlogPage"
   BackgroundImg = "url(../resource/About_hero.png)"
 } else if($("#app").hasClass("VoicePage")){
-  hero__title = "お客様の声"
+  hero__title = "乗客の声"
+  TitleImg = `<img src="../resource/peeled.svg" alt="">`
   Page = "VoicePage"
   BackgroundImg = "url(../resource/Menu_hero.png)"
 } else if($("#app").hasClass("MenuPage")){
@@ -49,8 +51,9 @@ export class Hero extends Component{
     } else{
       children = $(
         `<section id="heroSection">
-          <div class="hero ${Page}__hero">
+          <div class="hero ${Page}__hero heroSub">
             <h1 class="hero__title">${hero__title}</h1>
+            ${TitleImg}
           </div>
         </section>`
       )
