@@ -1,3 +1,16 @@
+//Banana
+//0:nomal 1:bud 2:cute 3:flying
+//4:giggling 5:half-peeled 6:peeled
+export const BananaPic = [
+  `<img src="../resource/normal.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/bud.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/cute.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/flying.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/giggling.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/half-peeled.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;">`
+]
+
 //Header and Footer
 export const NavTitle = [
   `ホーム`,
@@ -88,16 +101,22 @@ export const customerVoiceFull = [
 //About variables
 export const textTitle = [
   "Akiちゃん",
-  "CAライフ"
+  "CAライフ",
+  "想い",
+  "その想いはどこから？"
 ];
 export const textContent = [
   `こんにちは、あきちゃんです。<br>私は九州の城下町、熊本で魚屋の両親の元に次男（？）、長女（？）として生まれました。<br>ま、幼少期から男の子が好きだった訳なんですね。<br>小さい時から、植物と飛行機と英語が好きで、好きが嵩じて、園芸店で働いたり、CAになったり、英会話コーチをやって来ました。<br>プライベートでは妊活中でして、女性カップルに精子提供をすることで新しい形の家族を作ろうと奮闘しています。<br>そんなカラフルでモザイクな感じの私がみなさんに提供しているのが「呪いから解放」するセッションです。<br>興味がある人はまず連絡してみてくださいね！`,
-  `中でも最もexcitingだったのはCAライフ（実際はキャビンクルーと呼びます）ですね。タイの航空会社とドバイの航空会社に居ましたが、日々、世界１４０都市をまたにかける生活でした。<br>海外はドバイ、バンコク、シドニー、ロンドン、パリと住んできまして、フランス語やタイ語を含む４か国語を話します。今はアラビア語の習得に向けて励んでいます。`
+  `中でも最もexcitingだったのはCAライフ（実際はキャビンクルーと呼びます）ですね。タイの航空会社とドバイの航空会社に居ましたが、日々、世界１４０都市をまたにかける生活でした。<br>海外はドバイ、バンコク、シドニー、ロンドン、パリと住んできまして、フランス語やタイ語を含む４か国語を話します。今はアラビア語の習得に向けて励んでいます。`,
+  `わたしたちは生まれる前から<br>何をしに来たのか決めているとも言われます。<br>でも、子どもから大人になる間に色んな経験をして、<br>小さな諦めの中、それが何だったか忘れて来ます。<br>そして、そんなものはなかったかのようになってしまいます。<br>それはまるで暗闇にある宝物の様に、見えません。<br>でも、それに灯り <TORCH> が灯されれば見える。キラっキラっでなくてもいい。うっすらとでも見えてくればいい。<br>少しずつでも見えて来たあなたに灯 <TORCH> を灯したい。`,
+  `わたしは４歳の時から植物が好きでした。きっかけは園長先生がわたしにワタの木の苗をくれたところから始まります。<br>それから色んなものを育てるようになり、園芸店に行くのが大好きでした。<br>そして、お店に着いて真っ先に行くところが、「見切り品コーナー」。子どもなので安いからというところでそこに行く訳ではありませんでした。なぜ、そのコーナーに行くかというと、まだ「可能性」のあるものが捨てられるのが悲しかったからなんです。<br>なので多年草で来年も咲く可能性があるものを真っ先に手に取ってお家に持って帰り植え替えて、秋を迎え、冬を迎え、新芽が出てきて、翌春に花を咲かせていました。そうやって、まだ可能性のある子たちを助け出すのが小さい時から好きだったんです。<br>わたしたちは「可能性」があるにも関わらず捨ててしまったり、なかったことにしてしまうのが得意です。<br>「いやいや私には無理ですよ」<br>「全然わかりません」<br>「もう歳なんで」<br>わたしはそれを聞き逃したくない。 `
 ];
 
 export const aboutPics = [
   "../resource/Akifumi-thailand.png",
-  "../resource/CA2.png"
+  "../resource/CA2.png",
+  "../resource/Cantera.png",
+  "../resource/plant2.png"
 ];
 export const aboutYoutube = [
   `<iframe src="https://www.youtube.com/embed/i44_vjJfeVI?si=iW5KSZXlnPz3MQpb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

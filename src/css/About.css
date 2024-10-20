@@ -19,6 +19,10 @@
   width: 40%;
   margin-top: 60px;
 }
+#About .aboutFlexContainer .aboutFlex .pic img {
+  width: 100%;
+  border-radius: 10px;
+}
 #About .aboutFlexContainer .odd {
   background-color: #F2F0E9;
 }
@@ -30,9 +34,14 @@
   height: 450px;
 }
 #About .aboutYoutubeContainer .youtubeTitle {
+  display: flex;
+  align-items: center;
   height: 125px;
   text-align: center;
   place-content: center;
+}
+#About .aboutYoutubeContainer .youtubeTitle img {
+  padding-right: 5px;
 }
 #About .aboutYoutubeContainer .youtubeArea {
   width: 75%;
@@ -54,7 +63,8 @@
   background-color: #FD1513;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  height: 45px;
 }
 
 /*# sourceMappingURL=About.css.map */
