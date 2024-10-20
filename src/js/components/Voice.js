@@ -12,9 +12,7 @@ export class Voice extends Component{
     );
 
     if($("#app").hasClass("VoicePage")){
-      console.log(Pictures[0].split(" "))
-      console.log(Pictures[0])
-      for(let i=0;i<8;i++){
+      for(let i=0;i<Pictures.length;i++){
         let addVoiceCard = "";
         let checkType = Pictures[i].split(" ")
         if(checkType[0] == "<iframe"){

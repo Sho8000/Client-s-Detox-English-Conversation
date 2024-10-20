@@ -78,7 +78,7 @@ export class Index extends Component{
                   <p>${IndexSubbomment[1]}</p>
                 </div>
                 <div class="images">
-                  <img src="resource/Banana-bud.png" alt="" class="Banana">
+                  <img src="${IndexSubbomment[2]}" alt="" class="Banana">
                 </div>
               </div>`
             )
