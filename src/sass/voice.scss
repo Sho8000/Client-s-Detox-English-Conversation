@@ -1,15 +1,20 @@
 #Voice{
   width: 100%;
+  background-image: url(../resource/banana-background.png);
+  background-size: contain;
+//  background-size: cover;
   .VoiceCardContainer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     row-gap: 65px;
     justify-content: space-evenly;
-    margin: 56px auto;
+    margin:auto;
+    padding: 56px 0;
     .VoiceCard{
       width: 520px;
       height: auto;
+      background-color: white;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
       .VoiceYoutube{
         iframe{

@@ -31,32 +31,58 @@ export const IndexSubbomment = [
 export const Pictures = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/yLFTjinxeHg?si=WEMLY88Fzu5uZcLS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/ivwPWI8w6RA?si=2lXD5crW9yAi6pD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+  `../resource/2childrenMom.png`,
+  `../resource/VoicePic8.png`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/5_HuhAKKtCg?si=EyMMkVjFpertQmZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/uq4SHpbhPLU?si=6fzfkoHgcC0klacG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/ghzjtepxbhE?si=zsR7D-4O74vG1_R2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+  `../resource/SaleseSupport.png`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/XVv0xnIhaRA?si=DpbNbBhIjEArRZl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+  `../resource/Aroma.png`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/dfyB0Pyxo14?si=k7MwICbhFP1UfR-x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
-  "../resource/VoicePic8.png"
+  `../resource/Aroma.png`
 ];
 export const voiceTitle = [
   "4人のママで電気工事現場監督（神奈川）",
   "アパレルデザイナー & スタイリスト（京都＆広島）",
+  `２児のママ兼OL（兵庫）`,
+  `お花屋さん（熊本）`,
   "ピラティススタジオ経営（福岡）",
   "ラーメン店４店舗経営ご夫婦（東京）",
   "EC販売代行（神奈川）",
+  "営業サポートOL（神戸）",
   "パティスリー経営（熊本）",
+  "アロマ商材販売（神奈川在住）",
   "リンパマッサージサロン経営（東京）",
-  "お花屋さん（熊本）"
+  "Coming soon..."
 ]
 export const customerVoice = [
+  "子育て真っ最中だが、次の人生に踏み出そうと英語を開始！一緒...",
+  "とにかく何か踏み出したい！ということ...",
+  `英語が好きだったことを思い出させてくれたあっきー...`,
+  `高校時代から嫌いなままだったが...`,
+  "英語が全く聞こえなかったのが１ヶ月で聞こえるようになった。...",
+  "",
+  "",
+  "学校で教えて欲しかった！...",
+  "",
+  "あっきーは天使みたいだな、ってよく思います。...",
+  "",
+  ""
+]
+export const customerVoiceFull = [
   "子育て真っ最中だが、次の人生に踏み出そうと英語を開始！一緒に渡豪もし、どんどん才能開花中！",
   "とにかく何か踏み出したい！ということで英語を始めたら、転職が起こるわ息子も英語が話せるようになるわミラクルいっぱいです！",
+  `英語が好きだったことを思い出させてくれたあっきー 中学の時好きだった英語が怖くなり勉強も嫌になっていました 軽い気持ちで再開したら『こんなはずじゃなかった』 『こんなこともわからないなんて悔しい』 そんな気持ちが出たり入ったりしながら続けていくうちに 不思議と面白く感じるようになった、 逃げていた英語に飛び込んでみたい！ってゆうきまで出てきました そしてそれは英語だけじゃなく他の生活にも影響を与えていて 自分の想像してないことが起こり初めてワクワクしています！`,
+  "高校時代から嫌いなままだったが、英語のでのチャットやヴォイスメッセージを自然に送れるようになった。",
   "英語が全く聞こえなかったのが１ヶ月で聞こえるようになった。毎日が海外で生活しているようだった。",
   "",
   "",
+  "学校で教えて欲しかった！って事がたくさん詰まってます 毎日英語に触れるから英語が当たり前になってくる そうしたらもっと話せるようになりたい欲がでてくる 英語をしているのに英語以外の世界も広がっていくという不思議な事も起こり始めている お楽しみだらけ！",
   "",
+  "あっきーは天使みたいだな、ってよく思います。性別も年齢もよくわかんないし笑世界中飛び回ってるしね笑 最初は英会話を通して、私が気づかずに抱えている 「英会話が上達しない罠」の存在をわかりやすく教えてくれました。あっきーがよく言う「呪い」ってやつですね。実は呪いは英語に限った話ではなくて。 人間関係やお金、健康などにも通じることなんです。英会話の練習をしているつもりが、いつの間にか人生を開花させるコーチングになっている。そんなセッションがよくあります。今はむしろ英会話がおまけみたいな感じ笑 私たちにかかっている「呪い」や そこにあるのに見えていない「鎖」をひらりとやってきて「ここにあるんじゃない？どうする？」ってそっと教えて去っていく、そんなAngelのようなあっきーといちどお話ししてみてくださいね♪",
   "",
-  "高校時代から嫌いなままだったが、英語のでのチャットやヴォイスメッセージを自然に送れるようになった。"
+  ""
 ]
 
 //About variables
