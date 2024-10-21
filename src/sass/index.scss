@@ -3,11 +3,31 @@
 $HeaderBG:white;
 $LineBG:#00B800;
 $FooterBG:#0095A7;
+$FontFamily: 'Noto Sans JP', sans-serif;
+$font_h1: 48px;
+$font_h2: 40px;
+$font_h3: 32px;
+$font_h4: 28px;
+$font_p_xl: 24px;
+$font_p_L: 20px;
+$font_p_m: 16px;
+$font_p_s: 12px;
+$font_p_ss: 10px;
 
 body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $FontFamily;
+  h1{font-size: $font_h1;}
+  h2{font-size: $font_h2;}
+  h3{font-size: $font_h3;}
+  h4{font-size: $font_h4;}
+  .font_p_xl{font-size: $font_p_xl;}
+  .font_p_L{font-size: $font_p_L;}
+  .font_p_m{font-size: $font_p_m;}
+  .font_p_s{font-size: $font_p_s;}
+  .font_p_ss{font-size: $font_p_ss;}
 }
 
 a{

@@ -2,6 +2,34 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+body h1 {
+  font-size: 48px;
+}
+body h2 {
+  font-size: 40px;
+}
+body h3 {
+  font-size: 32px;
+}
+body h4 {
+  font-size: 28px;
+}
+body .font_p_xl {
+  font-size: 24px;
+}
+body .font_p_L {
+  font-size: 20px;
+}
+body .font_p_m {
+  font-size: 16px;
+}
+body .font_p_s {
+  font-size: 12px;
+}
+body .font_p_ss {
+  font-size: 10px;
 }
 
 a {

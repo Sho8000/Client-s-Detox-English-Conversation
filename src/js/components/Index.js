@@ -98,7 +98,7 @@ export class Index extends Component{
                 </div>
               </div>`
             )
-            for(let i=0; i<4; i++){
+            for(let i=0; i<2; i++){
               const addIndexVoiceCard = $(
                 `<div class="voiceCard">
                   <h2>${voiceTitle[i]}</h2>
