@@ -31,6 +31,9 @@ body .font_p_s {
 body .font_p_ss {
   font-size: 10px;
 }
+body .fontWaitBold {
+  font-weight: 700;
+}
 
 a {
   text-decoration: none;

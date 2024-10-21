@@ -13,6 +13,7 @@ $font_p_L: 20px;
 $font_p_m: 16px;
 $font_p_s: 12px;
 $font_p_ss: 10px;
+$fontWaitBold: 700;
 
 body{
   margin: 0;
@@ -28,6 +29,7 @@ body{
   .font_p_m{font-size: $font_p_m;}
   .font_p_s{font-size: $font_p_s;}
   .font_p_ss{font-size: $font_p_ss;}
+  .fontWaitBold{font-weight: 700;}
 }
 
 a{
