@@ -97,6 +97,12 @@ export const customerVoiceFull = [
   "",
   ""
 ]
+export const googleReviews = [
+  `../resource/GoogleReview1Eng.png`,
+  `../resource/GoogleReview2Eng.png`,
+  `../resource/GoogleReview3Eng.png`,
+  `../resource/GoogleReview4Eng.png`,
+]
 
 //About variables
 export const textTitle = [
