@@ -34,6 +34,9 @@ body .font_p_ss {
 body .fontWaitBold {
   font-weight: 700;
 }
+body .fontWaitBoldNormal {
+  font-weight: 400;
+}
 
 a {
   text-decoration: none;
@@ -176,6 +179,13 @@ main {
   width: fit-content;
   color: white;
   text-align: center;
+  margin: 0;
+}
+#app main #heroSection .hero .hero__comment {
+  margin: 1rem 0;
+}
+#app main #heroSection .hero .LineLink {
+  margin-top: 40px;
 }
 #app main #heroSection .heroSub {
   display: flex;
@@ -183,8 +193,8 @@ main {
   align-items: center;
 }
 #app main #heroSection .heroSub img {
-  height: 50px;
-  padding-left: 5px;
+  height: 75px;
+  padding-left: 10px;
 }
 #app main #indexPage__contents {
   width: 100%;

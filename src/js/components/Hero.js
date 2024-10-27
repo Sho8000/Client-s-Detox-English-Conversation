@@ -27,7 +27,7 @@ if($("#app").hasClass("AboutPage")){
 } else if($("#app").hasClass("indexPage")){
   hero__title = "話したいと思ってから<br>何年経つんですか？"
   Page = "IndexPage";
-  BackgroundImg = "url(resource/Hero-section-akimoto.png)"
+  BackgroundImg = "url(resource/20241010_Hero-Tsukamoto-san.png)"
   IndexParagraph = "結局、同じところに居ませんか？まだ同じところに居たいですか？<br>本当はそこにはもう居たくないはず<br>もう飛び立ってもいいかもしれませんね<br>It’s time to TAKE OFF"
 }
 
@@ -39,11 +39,11 @@ export class Hero extends Component{
         `<section id="heroSection">
           <div class="hero ${Page}__hero">
             <div class="${Page}__hero__container">
-              <h1 class="hero__title">${hero__title}</h1>
-              <p class="hero__comment">${IndexParagraph}</p>
+              <h1 class="hero__title fontWaitBold">${hero__title}</h1>
+              <p class="hero__comment font_p_L fontWaitBoldNormal">${IndexParagraph}</p>
             </div>
             <div class="LineLink">
-              <a href="${this.LineLink}"><button class="lineBtn">LINEでご相談！</button></a>
+              <a href="${this.LineLink}"><button class="lineBtn font_p_m fontWaitBold">LINEでご相談！</button></a>
             </div>
           </div>
         </section>`
@@ -52,7 +52,7 @@ export class Hero extends Component{
       children = $(
         `<section id="heroSection">
           <div class="hero ${Page}__hero heroSub">
-            <h1 class="hero__title">${hero__title}</h1>
+            <h1 class="hero__title fontWaitBold">${hero__title}</h1>
             ${TitleImg}
           </div>
         </section>`

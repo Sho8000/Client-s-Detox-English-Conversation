@@ -14,6 +14,7 @@ $font_p_m: 16px;
 $font_p_s: 12px;
 $font_p_ss: 10px;
 $fontWaitBold: 700;
+$fontWaitBoldNormal: 400;
 
 body{
   margin: 0;
@@ -29,7 +30,8 @@ body{
   .font_p_m{font-size: $font_p_m;}
   .font_p_s{font-size: $font_p_s;}
   .font_p_ss{font-size: $font_p_ss;}
-  .fontWaitBold{font-weight: 700;}
+  .fontWaitBold{font-weight: $fontWaitBold;}
+  .fontWaitBoldNormal{font-weight: $fontWaitBoldNormal;}
 }
 
 a{
@@ -198,15 +200,22 @@ main{
           width: fit-content;
           color: white;
           text-align: center;
-        }  
+          margin: 0;
+        }
+        .hero__comment{
+          margin: 1rem 0;
+        }
+        .LineLink{
+          margin-top: 40px;
+        }
       }
       .heroSub{
         display: flex;
         justify-content: center;
         align-items: center;
         img{
-          height: 50px;
-          padding-left: 5px;
+          height: 75px;
+          padding-left: 10px;
         }
       }
     }
