@@ -12,7 +12,7 @@
   width: 40%;
   margin-top: 60px;
 }
-#About .aboutFlexContainer .aboutFlex .text h2 {
+#About .aboutFlexContainer .aboutFlex .text p {
   margin-top: 0;
 }
 #About .aboutFlexContainer .aboutFlex .pic {
@@ -28,6 +28,41 @@
 }
 #About .aboutFlexContainer .odd .text {
   order: 2;
+}
+#About .aboutFlexContainer .aboutCALife {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutCALife .Banana {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+#About .aboutFlexContainer .aboutCALife .Banana img {
+  width: 75px;
+}
+#About .aboutFlexContainer .aboutThought {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutThought .Banana {
+  position: absolute;
+  top: 45%;
+  left: 90%;
+}
+#About .aboutFlexContainer .aboutThought .Banana img {
+  width: 75px;
+  mix-blend-mode: darken;
+}
+#About .aboutFlexContainer .aboutThoughtRoot {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutThoughtRoot .Banana {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  z-index: 0;
+}
+#About .aboutFlexContainer .aboutThoughtRoot .Banana img {
+  height: 75px;
 }
 #About .aboutYoutubeContainer {
   width: 100%;

@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { BananaPic, textTitle, textContent, aboutPics, aboutYoutube } from "../common/Variable.js";
+import { BananaPic, textTitle, textContent, aboutPics, aboutYoutube, textClassName } from "../common/Variable.js";
 
 export class About extends Component{
   render(){
@@ -10,10 +10,10 @@ export class About extends Component{
           <div class="aboutFlexContainer">
           </div>
           <div class="aboutYoutubeContainer">
-            <div class="youtubeTitle">${BananaPic[5]}<h2>Youtube チャンネル</h2></div>
+            <div class="youtubeTitle">${BananaPic[5]}<p class="font_p_xl fontWaitBold">Youtube チャンネル</p></div>
             <div class="youtubeArea"></div>
             <div class="youtubeLink">
-              <a href="${this.YoutubeLink}"><button class="youtubeBtn">Youtube チャンネルはこちら</button></a>
+              <a href="${this.YoutubeLink}"><button class="youtubeBtn font_p_m fontWaitBold">Youtube チャンネルはこちら</button></a>
             </div>
           </div>
         </section>`
@@ -25,10 +25,10 @@ export class About extends Component{
           odd = "odd";
         }
         let addAboutFlexContainer = $(
-          `<div class="aboutFlex ${odd}">
+          `<div class="aboutFlex ${odd} ${textClassName[i]}">
             <div class="text">
-              <h2>${textTitle[i]}</h2>
-              <p>${textContent[i]}</p>
+              <p class="font_p_xl fontWaitBold">${textTitle[i]}</p>
+              <p class="font_p_m fontWaitBoldNormal">${textContent[i]}</p>
             </div>
             <div class="pic">
               <img src=${aboutPics[i]} alt="">
@@ -37,6 +37,11 @@ export class About extends Component{
         )
         children.find(".aboutFlexContainer").append(addAboutFlexContainer);
       }
+
+      //add Banana Pics
+      children.find(".aboutCALife").append(`<div class="Banana">${BananaPic[3]}</div>`)
+      children.find(".aboutThought").append(`<div class="Banana">${BananaPic[0]}</div>`)
+      children.find(".aboutThoughtRoot").append(`<div class="Banana">${BananaPic[1]}</div>`)
 
       //Youtube channel
       for(let i=0; i<aboutYoutube.length; i++){
