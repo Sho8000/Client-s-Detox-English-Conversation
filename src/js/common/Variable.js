@@ -53,7 +53,7 @@ export const Pictures = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/XVv0xnIhaRA?si=DpbNbBhIjEArRZl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `../resource/Aroma.png`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/dfyB0Pyxo14?si=k7MwICbhFP1UfR-x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
-  `../resource/Aroma.png`
+  `../resource/B_coming-soon.png`
 ];
 export const voiceTitle = [
   "4人のママで電気工事現場監督（神奈川）",

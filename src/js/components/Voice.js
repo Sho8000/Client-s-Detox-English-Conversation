@@ -8,6 +8,9 @@ export class Voice extends Component{
       `<section id="Voice">
         <div class="VoiceCardContainer">
         </div>
+        <div class="GoogleReview">
+          <h3 class="GoogleReviewTitle">Google レビュー</h3>
+        </div>
       </section>`
     );
 
@@ -15,16 +18,18 @@ export class Voice extends Component{
       for(let i=0;i<Pictures.length;i++){
         let addVoiceCard = "";
         let checkType = Pictures[i].split(" ")
-        if(checkType[0] == "<iframe"){
+        if(checkType[0] === "<iframe"){
           //For upload youtube "iframe" data
           addVoiceCard = $(
             `<div class="VoiceCard">
+              <div class="VoiceComment">
+                <p class="font_p_L fontWaitBold">${voiceTitle[i]}</p>
+              </div>
               <div class="VoiceYoutube">
                 ${Pictures[i]}
               </div>
               <div class="VoiceComment">
-                <h2>${voiceTitle[i]}</h2>
-                <p>${customerVoice[i]}</p>
+                <p class="font_p_m fontWaitBold">${customerVoice[i]}</p>
               </div>
             </div>`
           );  
@@ -32,12 +37,14 @@ export class Voice extends Component{
           //For upload picture "img" data
           addVoiceCard = $(
             `<div class="VoiceCard">
+              <div class="VoiceComment">
+                <p class="font_p_L fontWaitBold">${voiceTitle[i]}</p>
+              </div>
               <div class="VoiceYoutube">
                 <img src="${Pictures[i]}" alt="">
               </div>
               <div class="VoiceComment">
-                <h2>${voiceTitle[i]}</h2>
-                <p>${customerVoice[i]}</p>
+                <p class="font_p_m fontWaitBold">${customerVoice[i]}</p>
               </div>
             </div>`
           );
