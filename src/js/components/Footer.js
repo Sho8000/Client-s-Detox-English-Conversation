@@ -38,14 +38,14 @@ export class Footer extends Component{
       children = $(
         `<footer id="${BASE_CLASS}">
           <div class="${BASE_CLASS}__container">
-            <h2 class="${BASE_CLASS}__title">${this.websiteName}</h2>
+            <p class="${BASE_CLASS}__title font_p_xl fontWaitBold">${this.websiteName}</p>
             <div class="${BASE_CLASS}__ulContainer">
               <ul class="${BASE_CLASS}__ul">
-                <li class="${BASE_CLASS}__li"><a href="${IndexHTML}">${NavTitle[0]}</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${MenuHTML}">${NavTitle[1]}</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}">${NavTitle[2]}</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${AboutHTML}">${NavTitle[3]}</a></li>
-                <li class="${BASE_CLASS}__li"><a href="${BlogHTML}">${NavTitle[4]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${IndexHTML}" class="font_p_m fontWaitBold">${NavTitle[0]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${MenuHTML}" class="font_p_m fontWaitBold">${NavTitle[1]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}" class="font_p_m fontWaitBold">${NavTitle[2]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${AboutHTML}" class="font_p_m fontWaitBold">${NavTitle[3]}</a></li>
+                <li class="${BASE_CLASS}__li"><a href="${BlogHTML}" class="font_p_m fontWaitBold">${NavTitle[4]}</a></li>
               </ul>
             </div>
             <div class="${BASE_CLASS}__icons">
