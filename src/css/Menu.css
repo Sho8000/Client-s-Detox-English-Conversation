@@ -1,0 +1,117 @@
+#Menu {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(../resource/banana-background.png);
+  background-size: contain;
+  padding: 4rem 0;
+}
+#Menu .Menu__mainCouse {
+  width: 90%;
+  margin: auto;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title title" "img exp" "course course" "notice notice" "showMore showMore";
+  gap: 1rem;
+  border: 1px solid #DCDAD4;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+  background-color: white;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__title {
+  grid-area: title;
+  height: 65px;
+  text-align: center;
+  background-color: #DCDAD4;
+  place-content: center;
+  margin-bottom: 2rem;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__title .font_p_xl {
+  margin: auto;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__img {
+  grid-area: img;
+  text-align: center;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__img img {
+  width: 90%;
+  border-radius: 5px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__explain {
+  grid-area: exp;
+  width: 90%;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__explain .font_p_m {
+  margin: auto;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer {
+  width: 90%;
+  grid-area: course;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 3rem;
+  margin: 3rem auto 1rem;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard {
+  width: 300px;
+  height: 320px;
+  border: 1px solid #DCDAD4;
+  border-radius: 10px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .talkingBNN {
+  position: relative;
+  height: 65px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .talkingBNN img {
+  position: absolute;
+  top: -60%;
+  left: -12%;
+  transform: rotate(-9deg);
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mtitle {
+  text-align: center;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mperiod {
+  width: fit-content;
+  padding: 0 1rem;
+  margin: auto;
+  border-radius: 15px;
+  color: white;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .McouseExp .McouseExp__ul {
+  padding-left: 25px;
+  padding-right: 5px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mcomment {
+  padding-left: 10px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__notice {
+  grid-area: notice;
+  text-align: center;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__notice .font_p_m {
+  color: red;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__showMore {
+  grid-area: showMore;
+  display: inline-block;
+  width: 80%;
+  height: 60px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  background-color: #DCDAD4;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__showMore .showMoreBtn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__showMore .showMoreBtn .font_p_L {
+  margin: auto;
+}
+
+/*# sourceMappingURL=Menu.css.map */

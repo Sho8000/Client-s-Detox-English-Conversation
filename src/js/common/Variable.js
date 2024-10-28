@@ -1,6 +1,6 @@
 //Banana
 //0:nomal 1:bud 2:cute 3:flying
-//4:giggling 5:half-peeled 6:peeled
+//4:giggling 5:half-peeled 6:peeled 7:talking
 export const BananaPic = [
   `<img src="../resource/normal.svg" alt="banana" style="height: 50px;">`,
   `<img src="../resource/bud.svg" alt="banana" style="height: 50px;">`,
@@ -8,7 +8,8 @@ export const BananaPic = [
   `<img src="../resource/flying.svg" alt="banana" style="height: 50px;">`,
   `<img src="../resource/giggling.svg" alt="banana" style="height: 50px;">`,
   `<img src="../resource/half-peeled.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;">`
+  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;">`,
+  `<img src="../resource/Speech\ bubble.svg" alt="banana" style="height: 50px;">`
 ]
 
 //Header and Footer
@@ -38,6 +39,49 @@ export const IndexSubbomment = [
   `その想いはどこから？`,
   `わたしは４歳の時から植物が好きでした。きっかけは園長先生がわたしにワタの木の苗をくれたところから始まります。<br>それから色んなものを育てるようになり、園芸店に行くのが大好きでした。<br>そして、お店に着いて真っ先に行くところが、「見切り品コーナー」。子どもなので安いからというところでそこに行く訳ではありませんでした。なぜ、そのコーナーに行くかというと、まだ「可能性」のあるものが捨てられるのが悲しかったからなんです。<br>なので多年草で来年も咲く可能性があるものを真っ先に手に取ってお家に持って帰り植え替えて、秋を迎え、冬を迎え、新芽が出てきて、翌春に花を咲かせていました。そうやって、まだ可能性のある子たちを助け出すのが小さい時から好きだったんです。<br>わたしたちは「可能性」があるにも関わらず捨ててしまったり、なかったことにしてしまうのが得意です。<br>「いやいや私には無理ですよ」<br>「全然わかりません」<br>「もう歳なんで」<br>わたしはそれを聞き逃したくない。`,
   `../resource/bud.svg`
+]
+
+//Course variables
+/* 0:mainTitle, 1:picURL 2:mainExp 3:notice 4:もっと見る*/
+export const mainCouse = [
+  "デトックス英会話",
+  "../resource/detox.png",
+  "「単語力がないから話せない」「文法力がないから話せない」「リスニング力がないからダメだ」<br>何かがないから出来ないって思ってますね？実はめっちゃ毒が溜まっているから話せないんですよ！良いもの入れても毒が溜まっていてはどうにもならないですよね。カラダと同じ。<br>「英語脳」をデトックスしちゃえば話せます！<br>コースは基本オンラインで、AKiFが日本各地や海外からレッスンコーチングを届けます。",
+  "＊＊全クラス、あなたの英語のレベルは全く関係ありません。「動詞」とか「目的語」とか言われても分からない、、というレベルでも無問題です。",
+  "もっと見る"
+]
+export const mainCousesTitle = [
+  "< First Class >",
+  "< Business Class >",
+  "< Economy Class >",
+  "＜ LCCコース ＞"
+]
+export const mainCousesPeriod = [
+  "12ヶ月コース",
+  "6ヶ月コース",
+  "6ヶ月コース",
+  "サブスクコース"
+]
+export const mainCousesList = [
+  ["色々やったけど結果が出なかった方",
+    "自分ではなかなか続かない",
+    "どうしていいか分からない方"
+  ],
+  ["色々やったけど結果が出なかった方",
+    "自分ではなかなか続かない"
+  ],
+  ["色々やったけど結果が出なかった方",
+    "自分で続けるのは苦手ではない方"
+  ],
+  ["デトックス英会話のエッセンスをちょっと知りたい方",
+    "AKiFの楽しさや自由さに少し触れたい方"
+  ]
+]
+export const mainCouseComment = [
+  "完全オーダーメイドコーチング<br>（海外フィールドワーク付）",
+  "セミオーダーメイドコーチング",
+  "グループワーク中心",
+  ""
 ]
 
 //Voice variables

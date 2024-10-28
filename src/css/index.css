@@ -37,6 +37,18 @@ body .fontWaitBold {
 body .fontWaitBoldNormal {
   font-weight: 400;
 }
+body .coursePeriodColorB {
+  background-color: #1A7692;
+}
+body .coursePeriodColorG {
+  background-color: #248F5A;
+}
+body .coursePeriodColorR {
+  background-color: #B53A13;
+}
+body .coursePeriodColorY {
+  background-color: #A37C21;
+}
 
 a {
   text-decoration: none;

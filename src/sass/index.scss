@@ -15,6 +15,10 @@ $font_p_s: 12px;
 $font_p_ss: 10px;
 $fontWaitBold: 700;
 $fontWaitBoldNormal: 400;
+$coursePeriodColorB: #1A7692;
+$coursePeriodColorG: #248F5A;
+$coursePeriodColorR: #B53A13;
+$coursePeriodColorY: #A37C21;
 
 body{
   margin: 0;
@@ -32,6 +36,10 @@ body{
   .font_p_ss{font-size: $font_p_ss;}
   .fontWaitBold{font-weight: $fontWaitBold;}
   .fontWaitBoldNormal{font-weight: $fontWaitBoldNormal;}
+  .coursePeriodColorB{background-color: $coursePeriodColorB;}
+  .coursePeriodColorG{background-color: $coursePeriodColorG;}
+  .coursePeriodColorR{background-color: $coursePeriodColorR;}
+  .coursePeriodColorY{background-color: $coursePeriodColorY;}
 }
 
 a{
