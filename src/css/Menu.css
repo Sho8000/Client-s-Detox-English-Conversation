@@ -113,5 +113,69 @@
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__showMore .showMoreBtn .font_p_L {
   margin: auto;
 }
+#Menu .Menu__subCourse {
+  width: 90%;
+  margin: auto;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title title" "img period" "img exp" "img comment";
+  border: 1px solid #DCDAD4;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+  background-color: white;
+  margin: 3rem auto;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__title {
+  grid-area: title;
+  height: 65px;
+  background-color: #DCDAD4;
+  place-content: center;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__title .font_p_xl {
+  margin: auto;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img {
+  grid-area: img;
+  justify-self: center;
+  width: 90%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img img {
+  width: 100%;
+  border-radius: 5px;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img :nth-child(2) {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__period .Speriod {
+  width: fit-content;
+  border-radius: 15px;
+  padding: 0 1.5rem;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__period .Speriod .font_p_L {
+  color: white;
+  margin: 0 auto 1rem;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__Exp .SExp {
+  display: flex;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__Exp .SExp img {
+  display: inline;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__Exp .SExp p {
+  display: inline;
+  margin: 0;
+}
+#Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__comment {
+  grid-area: comment;
+  width: 90%;
+}
 
 /*# sourceMappingURL=Menu.css.map */

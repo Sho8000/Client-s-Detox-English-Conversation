@@ -1,5 +1,6 @@
 import { Component } from "../common/component.js";
 import { BananaPic, mainCouse, mainCouseComment, mainCousesList, mainCousesPeriod, mainCousesTitle } from "../common/Variable.js";
+import { MenuSub } from "./Menu-sub.js";
 
 export class Menu extends Component{
   render(){
@@ -22,7 +23,6 @@ export class Menu extends Component{
           </div>
         </div>
         <div class="Menu__subCourse">
-          <div class="Menu__subCouse__card"></div>
         </div>
       </section>`
       );
@@ -30,7 +30,6 @@ export class Menu extends Component{
       for(let i=0;i<mainCousesTitle.length;i++){
         //to add talking Banana
         let talkingBNN = (i<2) ? `${BananaPic[7]}` : ``;
-//        talkingBNN
         //to change the period background
         let periodColor = "";
         if(mainCousesPeriod[i]==="12ヶ月コース"){
@@ -58,6 +57,9 @@ export class Menu extends Component{
 
         children.find(".Menu__mainCouse__card__courseCardContainer").append(courses);
       }
+
+      new MenuSub(children.find(".Menu__subCourse"));
+
       this.parentElement.append(children);
     }
   }
