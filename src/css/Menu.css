@@ -5,6 +5,9 @@
   background-size: contain;
   padding: 4rem 0;
 }
+#Menu .hide {
+  display: none;
+}
 #Menu .Menu__mainCouse {
   width: 90%;
   margin: auto;

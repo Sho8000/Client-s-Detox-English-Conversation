@@ -18,11 +18,11 @@ export class Menu extends Component{
             </div>
             <div class="Menu__mainCouse__card__notice"><p class="font_p_m fontWaitBold">${mainCouse[3]}<p></div>
             <div class="Menu__mainCouse__card__showMore">
-            <a href="${this.GoogleReview}"><button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button></a>
+            <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
             </div>
           </div>
         </div>
-        <div class="Menu__subCourse">
+        <div class="Menu__subCourse hide">
         </div>
       </section>`
       );
@@ -30,6 +30,8 @@ export class Menu extends Component{
       for(let i=0;i<mainCousesTitle.length;i++){
         //to add talking Banana
         let talkingBNN = (i<2) ? `${BananaPic[7]}` : ``;
+        //to hide before click showMore
+        let hideFirst = "";
         //to change the period background
         let periodColor = "";
         if(mainCousesPeriod[i]==="12ヶ月コース"){
@@ -38,9 +40,10 @@ export class Menu extends Component{
           periodColor = "coursePeriodColorG";
         } else if(mainCousesPeriod[i]==="サブスクコース"){
           periodColor = "coursePeriodColorR";
+          hideFirst = "hide";
         }
         const courses = $(
-          `<div class="Menu__mainCouse__card__courseCard">
+          `<div class="Menu__mainCouse__card__courseCard ${hideFirst}">
             <div class="talkingBNN">${talkingBNN}<div>
             <div class="Mtitle"><p class="font_p_L fontWaitBold">${mainCousesTitle[i]}</p></div>
             <div class="Mperiod ${periodColor}"><p class="font_p_m fontWaitBold">${mainCousesPeriod[i]}</p></div>
@@ -61,6 +64,12 @@ export class Menu extends Component{
       new MenuSub(children.find(".Menu__subCourse"));
 
       this.parentElement.append(children);
+
+      $(`.showMoreBtn`).on(`click`,()=>{
+        console.log(`heyyy`)
+        children.find(`.Menu__mainCouse__card__courseCard`).removeClass(`hide`)
+        children.find(`.Menu__subCourse`).removeClass(`hide`)
+      })
     }
   }
 }
