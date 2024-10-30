@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle } from "../common/Variable.js";
+import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle, BananaPic, IndexSubbommentThoughtness } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -70,15 +70,38 @@ export class Index extends Component{
             
             break;
 
+          case "SubcommentThoughtness":
+            eachContents = $(
+              `<div class="SubcommentThoughtnessContainer">
+                <div class="comments">
+                  <p class="font_p_xl fontWaitBold">${IndexSubbommentThoughtness[0]}</p>
+                  <p class="font_p_m fontWaitBoldNormal">${IndexSubbommentThoughtness[1]}</p>
+                  <p class="font_p_L fontWaitBold">${IndexSubbommentThoughtness[2]}</p>
+                </div>
+                <div class="images">
+                  ${IndexSubbommentThoughtness[3]}
+                  <div class="subImg">
+                    ${BananaPic[0]}
+                  </div>
+                </div>
+              </div>`
+            )
+            children.find(".SubcommentThoughtness").append(eachContents)            
+            break;
+
           case "Subcomment":
             eachContents = $(
               `<div class="SubcommentContainer">
                 <div class="comments">
-                  <h2>${IndexSubbomment[0]}</h2>
-                  <p>${IndexSubbomment[1]}</p>
+                  <p class="font_p_xl fontWaitBold">${IndexSubbomment[0]}</p>
+                  <p class="font_p_m fontWaitBoldNormal">${IndexSubbomment[1]}</p>
+                  <p class="font_p_L fontWaitBold">${IndexSubbomment[2]}</p>
                 </div>
                 <div class="images">
-                  <img src="${IndexSubbomment[2]}" alt="" class="Banana">
+                  ${IndexSubbomment[3]}
+                  <div class="subImg">
+                    ${BananaPic[1]}
+                  </div>
                 </div>
               </div>`
             )

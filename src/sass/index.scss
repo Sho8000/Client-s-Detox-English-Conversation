@@ -277,32 +277,39 @@ main{
             }
           }
         }
-        .Subcomment{
-          .SubcommentContainer{
+        .SubcommentThoughtness{
+          place-content: center;
+          .SubcommentThoughtnessContainer{
             width: 75%;
-            margin: 2rem auto;
             display: flex;
-            gap: 2rem;
-            .comments{
-              width: 50%;
-              h2{
-                margin-top: 0;
-              }
-            }
+            align-items: center;
+            gap: 60px;
+            margin: auto;
             .images{
               position: relative;
-              width: 50%;
-              height: 460px;
-              background-image: url(../resource/plant.jpg);
-              background-size: cover;
-              background-position: center;
-              border-radius: 10px;
-              .Banana{
+              .subImg{
                 position: absolute;
-                width: 50px;
-                height: 50px;
-                left: calc(100% - 100px);
-                top: -50px;
+                top: 60%;
+                left: 95%;
+                mix-blend-mode: darken;
+              }
+            }
+          }
+        }
+        .Subcomment{
+          place-content: center;
+          .SubcommentContainer{
+            width: 75%;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin: auto;
+            .images{
+              order: -1;
+              position: relative;
+              .subImg{
+                position: absolute;
+                top: -27%;
               }
             }
           }
@@ -336,11 +343,11 @@ main{
               }
             }
           }
-        }
-        .readMore{
-          width: 90%;
-          text-align: right;
-          margin: auto;
+          .readMore{
+            width: 90%;
+            text-align: right;
+            margin: auto;
+          }  
         }
       }
       .odd{

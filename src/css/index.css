@@ -258,33 +258,42 @@ main {
   top: -80px;
   right: 0;
 }
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness {
+  place-content: center;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .images {
+  position: relative;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .images .subImg {
+  position: absolute;
+  top: 60%;
+  left: 95%;
+  mix-blend-mode: darken;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment {
+  place-content: center;
+}
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer {
   width: 75%;
-  margin: 2rem auto;
   display: flex;
-  gap: 2rem;
-}
-#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .comments {
-  width: 50%;
-}
-#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .comments h2 {
-  margin-top: 0;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
 }
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images {
+  order: -1;
   position: relative;
-  width: 50%;
-  height: 460px;
-  background-image: url(../resource/plant.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
 }
-#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .Banana {
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .subImg {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  left: calc(100% - 100px);
-  top: -50px;
+  top: -27%;
 }
 #app main #indexPage__contents .indexPage__container .voiceContainer {
   width: 100%;
@@ -316,7 +325,7 @@ main {
   width: 100%;
   height: 293px;
 }
-#app main #indexPage__contents .indexPage__container .readMore {
+#app main #indexPage__contents .indexPage__container .voiceContainer .readMore {
   width: 90%;
   text-align: right;
   margin: auto;
