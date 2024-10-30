@@ -376,6 +376,7 @@ main{
             align-items: center;
             img{
               height: 50px;
+              margin-left: 1rem;
             }
           }
           .cardContainer{
@@ -385,7 +386,7 @@ main{
             row-gap: 65px;
             .voiceCard{
               width: 520px;
-              h2{
+              p{
                 text-align: center;
                 margin: auto;
               }  

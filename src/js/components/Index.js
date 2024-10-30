@@ -57,7 +57,7 @@ export class Index extends Component{
                   <img src="resource/Group.png" alt="mainComment">
                 </div>
                 <div class="lineBtn">
-                  <a href="${this.LineLink}"><button class="lineBtn"><p>LINEでご相談！</p></button></a></div>
+                  <a href="${this.LineLink}"><button class="lineBtn"><p class="font_p_m fontWaitBold">LINEでご相談！</p></button></a></div>
               </div>
               <div class="mainPic">
                 <img src="resource/Tsukamoto-san.png" alt="mainPic">
@@ -152,19 +152,19 @@ export class Index extends Component{
             eachContents = $(
               `<div class="voiceContainer">
                 <div class="titleContainer">
-                  <h2>乗客の声</h2>
-                  <img src="../resource/Banana-bud.png" alt="">
+                  <p class="font_p_xl fontWaitBold">乗客の声</p>
+                  ${BananaPic[6]}
                 </div>
                 <div class="cardContainer"></div>
                 <div class="readMore">
-                  <h3>Read more ></h3>
+                  <p class="font_p_L fontWaitBold">Read more ></p>
                 </div>
               </div>`
             )
             for(let i=0; i<2; i++){
               const addIndexVoiceCard = $(
                 `<div class="voiceCard">
-                  <h2>${voiceTitle[i]}</h2>
+                  <p class="font_p_L fontWaitBold">${voiceTitle[i]}</p>
                   ${Pictures[i]}
                 </div>`
               )

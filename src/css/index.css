@@ -357,6 +357,7 @@ main {
 }
 #app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer img {
   height: 50px;
+  margin-left: 1rem;
 }
 #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
   display: flex;
@@ -367,7 +368,7 @@ main {
 #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
   width: 520px;
 }
-#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard h2 {
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard p {
   text-align: center;
   margin: auto;
 }
