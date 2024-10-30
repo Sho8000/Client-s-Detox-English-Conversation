@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle, BananaPic, IndexSubbommentThoughtness } from "../common/Variable.js";
+import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle, BananaPic, IndexSubbommentThoughtness, IndexCourseTitle, IndexCoursePeriod, IndexCourseComment, IndexCourseExp } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -67,7 +67,47 @@ export class Index extends Component{
             break;
 
           case "Course":
-            
+            eachContents = $(
+              `<div class="courseContainer">
+                <div class="CourseTitle">
+                  <p class=""font_p_xl fontWaitBold>コース</p>
+                </div>
+                <div class="CourseList"></div>
+                <div class="CourseReadMore"><p class="font_p_L fontWaitBold">Read more &gt;</p></div>
+              </div>`
+            )
+
+            for(let i=0;i<IndexCourseTitle.length;i++){
+              //to add talking Banana
+              let talkingBNN = (i<2) ? `${BananaPic[7]}` : ``;
+
+              //to change the period background
+              let periodColor = "";
+              if(IndexCoursePeriod[i]==="12ヶ月コース"){
+                periodColor = "coursePeriodColorB";
+              } else if(IndexCoursePeriod[i]==="6ヶ月コース"){
+                periodColor = "coursePeriodColorG";
+              }
+              let courseContents = $(
+                `<div class="courseCard">
+                  <div class="cTitle"><p class="font_p_L fontWaitBold">${IndexCourseTitle[i]}</p></div>
+                  <div class="cPeriod ${periodColor}"><p class="font_p_m fontWaitBold">${IndexCoursePeriod[i]}</p></div>
+                  <div class="cExp"><ul class="list"></ul></div>
+                  <div class="cComment"><p class="font_p_m fontWaitBoldNormal">${IndexCourseComment[i]}</p></div>
+                  <div class="Banana">${talkingBNN}</div>
+
+                </div>`
+              )
+              for(let j=0;j<IndexCourseExp[i].length;j++){
+                const List = $(
+                  `<li>${IndexCourseExp[i][j]}</li>`
+                )
+                courseContents.find(".list").append(List);
+              }
+              eachContents.find(".CourseList").append(courseContents);
+            }
+
+            children.find(".Course").append(eachContents)           
             break;
 
           case "SubcommentThoughtness":

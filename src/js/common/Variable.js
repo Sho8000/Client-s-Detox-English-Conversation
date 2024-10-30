@@ -34,15 +34,35 @@ export const IndexYoutube = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/NfAKW6Kh-yU?si=T1cu5npdWIsWykkd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/vQPenhOb7mQ?si=beIGSUx93hhpPQvL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/F6GWS3wriM0?si=cCQ2obTBbvd2TfKv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-]
-/* 0:title, 1:comment 2:bananaImg */
+];
+export const IndexCourseTitle = [
+  `デトックス英会話<br>&lt; First Class &gt;`,
+  `デトックス英会話<br>&lt; Business Class &gt;`,
+  `デトックス英会話<br>&lt; Economy Class &gt;`
+];
+export const IndexCoursePeriod = [
+  `12ヶ月コース`,
+  `6ヶ月コース`,
+  `6ヶ月コース`
+];
+export const IndexCourseExp = [
+  [`色々やったけど結果が出なかった方`,`自分ではなかなか続かない`,`どうしていいか分からない`],
+  [`色々やったけど結果が出なかった方`,`自分ではなかなか続かない`],
+  [`色々やったけど結果が出なかった方`,`自分で続けるのは苦手ではない方`],
+];
+export const IndexCourseComment = [
+  `完全オーダーメイドコーチング<br>（海外フィールドワーク付）`,
+  `セミオーダーメイドコーチング`,
+  `グループワーク中心`
+];
+/* 0:title, 1:comment 2:ReadMore 3:img */
 export const IndexSubbommentThoughtness = [
   `想い`,
   `わたしたちは生まれる前から<br>何をしに来たのか決めているとも言われます。<br>でも、子どもから大人になる間に色んな経験をして、<br>小さな諦めの中、それが何だったか忘れて来ます。...`,
   `Read more &gt;`,
   `<img src="resource/indexCantera.png" alt="plant">`
 ]
-/* 0:title, 1:comment 2:bananaImg */
+/* 0:title, 1:comment 2:ReadMore 3:img */
 export const IndexSubbomment = [
   `その想いはどこから？`,
   `わたしは４歳の時から植物が好きでした。きっかけは園長先生がわたしにワタの木の苗をくれたところから始まります。<br>それから色んなものを育てるようになり、園芸店に行くのが大好きでした。...`,

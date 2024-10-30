@@ -272,8 +272,60 @@ main{
             img{
               position: absolute;
               width: 600px;
-              top: -80px;
               right: 0;
+            }
+          }
+        }
+        .Course{
+          display: flex;
+          flex-direction: column;
+        .courseContainer{
+            width: 80%;
+            margin: 2rem auto;
+            .CourseTitle{
+              text-align: center;
+              margin-bottom: 60px;
+            }
+            .CourseList{
+              display: flex;
+              justify-content: space-between;
+              .courseCard{
+                width: 300px;
+                height: 320px;
+                background-color: #FCFCFC;
+                border-radius: 10px;
+                position: relative;
+                .cTitle{
+                  text-align: center;
+                }
+                .cPeriod{
+                  width: fit-content;
+                  margin: auto;
+                  padding: 0 1.5rem;
+                  color: white;
+                  border-radius: 15px;
+                  .font_p_m{
+                    margin: auto;
+                  }
+                }
+                .cExp{
+                  .list{
+                    padding-left: 25px;
+                  }
+                }
+                .cComment{
+                  padding: 1rem;
+                }
+                .Banana{
+                  position: absolute;
+                  top: -5%;
+                  left: -15%;
+                  transform: rotate(-10deg);
+                }
+              }
+            }
+            .CourseReadMore{
+              text-align: right;
             }
           }
         }
