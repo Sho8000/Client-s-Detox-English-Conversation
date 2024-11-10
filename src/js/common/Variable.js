@@ -222,6 +222,13 @@ export const textClassName = [
   "aboutThoughtRoot"
 ]
 
+export const textIdName = [
+  "aboutAki",
+  "aboutCALife",
+  "aboutThought",
+  "aboutThoughtRoot"
+]
+
 export const aboutPics = [
   "../resource/Akifumi-thailand.png",
   "../resource/CA2.png",

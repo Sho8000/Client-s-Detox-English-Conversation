@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { BananaPic, textTitle, textContent, aboutPics, aboutYoutube, textClassName } from "../common/Variable.js";
+import { BananaPic, textTitle, textContent, aboutPics, aboutYoutube, textClassName, textIdName } from "../common/Variable.js";
 
 export class About extends Component{
   render(){
@@ -25,7 +25,7 @@ export class About extends Component{
           odd = "odd";
         }
         let addAboutFlexContainer = $(
-          `<div class="aboutFlex ${odd} ${textClassName[i]}">
+          `<div class="aboutFlex ${odd} ${textClassName[i]}" id="${textIdName[i]}">
             <div class="text">
               <p class="font_p_xl fontWaitBold">${textTitle[i]}</p>
               <p class="font_p_m fontWaitBoldNormal">${textContent[i]}</p>
