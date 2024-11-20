@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { Pictures, voiceTitle, customerVoice, googleReviews } from "../common/Variable.js"
+import { Pictures, voiceTitle, customerVoice, googleReviews, customerVoiceFull } from "../common/Variable.js"
 
 export class Voice extends Component{
   render(){
@@ -22,39 +22,47 @@ export class Voice extends Component{
       //Voice Part
       for(let i=0;i<Pictures.length;i++){
         let addVoiceCard = "";
+        const addComments = $(
+          `<p class="font_p_m fontWaitBold">${customerVoice[i]}</p>
+          <p class="font_p_m fontWaitBold hide">${customerVoiceFull[i]}</p>`
+        )
         let checkType = Pictures[i].split(" ")
         if(checkType[0] === "<iframe"){
           //For upload youtube "iframe" data
           addVoiceCard = $(
             `<div class="VoiceCard">
-              <div class="VoiceComment">
+              <div class="VoiceTitle">
                 <p class="font_p_L fontWaitBold">${voiceTitle[i]}</p>
               </div>
               <div class="VoiceYoutube">
                 ${Pictures[i]}
               </div>
               <div class="VoiceComment">
-                <p class="font_p_m fontWaitBold">${customerVoice[i]}</p>
               </div>
             </div>`
           );  
+
         } else{
           //For upload picture "img" data
           addVoiceCard = $(
             `<div class="VoiceCard">
-              <div class="VoiceComment">
+              <div class="VoiceTitle">
                 <p class="font_p_L fontWaitBold">${voiceTitle[i]}</p>
               </div>
               <div class="VoiceYoutube">
                 <img src="${Pictures[i]}" alt="">
               </div>
               <div class="VoiceComment">
-                <p class="font_p_m fontWaitBold">${customerVoice[i]}</p>
               </div>
             </div>`
           );
         }
-      children.find(".VoiceCardContainer").append(addVoiceCard);
+        children.find(".VoiceCardContainer").append(addVoiceCard);
+        addVoiceCard.find(".VoiceComment").append(addComments);
+        $(addVoiceCard).on(`click`,()=>{
+          console.log("dsfaj")
+          $(addComments).toggleClass('hide');
+        })
       }
 
       //Voice Part
