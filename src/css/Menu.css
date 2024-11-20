@@ -6,7 +6,7 @@
   padding: 4rem 0;
 }
 #Menu .hide {
-  display: none;
+  display: none !important;
 }
 #Menu .Menu__mainCouse {
   width: 90%;

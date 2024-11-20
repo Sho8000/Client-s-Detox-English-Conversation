@@ -66,9 +66,9 @@ export class Menu extends Component{
       this.parentElement.append(children);
 
       $(`.showMoreBtn`).on(`click`,()=>{
-        console.log(`heyyy`)
         children.find(`.Menu__mainCouse__card__courseCard`).removeClass(`hide`)
         children.find(`.Menu__subCourse`).removeClass(`hide`)
+        children.find(`.Menu__mainCouse__card__showMore`).addClass(`hide`)
       })
     }
   }
