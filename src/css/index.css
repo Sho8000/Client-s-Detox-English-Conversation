@@ -130,6 +130,17 @@ main {
   border: none;
   margin: auto;
 }
+#app #header .hamburgerSVG {
+  display: none;
+}
+@media only screen and (max-width: 815px) {
+  #app #header .header__ulContainer {
+    display: none;
+  }
+  #app #header .hamburgerSVG {
+    display: block;
+  }
+}
 #app html,
 #app body {
   position: relative;

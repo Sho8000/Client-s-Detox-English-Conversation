@@ -54,6 +54,16 @@ export class Header extends Component{
             <li class="${BASE_CLASS}__li"><a href="${this.LineLink}"><button class="${BASE_CLASS}__li__LINE font_p_m fontWaitBold"><p>LINEでご相談！</p></button></a></li>
           </ul>
         </div>
+        <div class="hamburgerSVG">
+          <svg width="60" height="47">
+            <rect x="10" y="10" rx="1" ry="1" width="40" height="2"
+            style="fill:black;stroke:black;stroke-width:5;" />
+            <rect x="10" y="22" rx="1" ry="1" width="40" height="2"
+            style="fill:black;stroke:black;stroke-width:5;" />
+            <rect x="10" y="34" rx="1" ry="1" width="40" height="2"
+            style="fill:black;stroke:black;stroke-width:5;" />
+          </svg>
+        </div>
       </nav>
     </header>`
     )
