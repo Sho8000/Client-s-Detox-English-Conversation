@@ -21,7 +21,7 @@ if($("#app").hasClass("AboutPage")){
   Page = "VoicePage"
   BackgroundImg = "url(../resource/Menu_hero.png)"
 } else if($("#app").hasClass("MenuPage")){
-  hero__title = "メニュー"
+  hero__title = "コース"
   Page = "MenuPage"
   BackgroundImg = "url(../resource/Menu_hero.png)"
 } else if($("#app").hasClass("indexPage")){
@@ -43,7 +43,7 @@ export class Hero extends Component{
               <p class="hero__comment font_p_L fontWaitBoldNormal">${IndexParagraph}</p>
             </div>
             <div class="LineLink">
-              <a href="${this.LineLink}"><button class="lineBtn font_p_m fontWaitBold">LINEでご相談！</button></a>
+              <a href="${this.LineLink}"><button class="lineBtn font_p_m fontWaitBold">LINEで相談！</button></a>
             </div>
           </div>
         </section>`

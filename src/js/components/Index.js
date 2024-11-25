@@ -54,10 +54,10 @@ export class Index extends Component{
             eachContents = $(
               `<div class="comments">
                 <div class="mainComment">
-                  <img src="resource/Group.png" alt="mainComment">
+                  <img src="resource/buchake.png" alt="mainComment">
                 </div>
                 <div class="lineBtn">
-                  <a href="${this.LineLink}"><button class="lineBtn"><p class="font_p_m fontWaitBold">LINEでご相談！</p></button></a></div>
+                  <a href="${this.LineLink}"><button class="lineBtn"><p class="font_p_m fontWaitBold">LINEで相談！</p></button></a></div>
               </div>
               <div class="mainPic">
                 <img src="resource/Tsukamoto-san.png" alt="mainPic">

@@ -51,7 +51,7 @@ export class Header extends Component{
             <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}" class="font_p_m fontWaitBold">${NavTitle[2]}</a></li>
             <li class="${BASE_CLASS}__li"><a href="${AboutHTML}" class="font_p_m fontWaitBold">${NavTitle[3]}</a></li>
             <li class="${BASE_CLASS}__li"><a href="${BlogHTML}" class="font_p_m fontWaitBold">${NavTitle[4]}</a></li>
-            <li class="${BASE_CLASS}__li"><a href="${this.LineLink}"><button class="${BASE_CLASS}__li__LINE font_p_m fontWaitBold"><p>LINEでご相談！</p></button></a></li>
+            <li class="${BASE_CLASS}__li"><a href="${this.LineLink}"><button class="${BASE_CLASS}__li__LINE font_p_m fontWaitBold"><p>LINEで相談！</p></button></a></li>
           </ul>
         </div>
         <div class="hamburgerSVG">
