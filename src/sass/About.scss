@@ -67,7 +67,7 @@
   }
   .aboutYoutubeContainer{
     width: 100%;
-    height: 450px;
+    min-height: 450px;
     .youtubeTitle{
       display: flex;
       align-items: center;
@@ -99,6 +99,7 @@
         border: none;
         border-radius: 10px;
         height: 45px;
+        padding: 0 1.5rem;
       }
     }
   
