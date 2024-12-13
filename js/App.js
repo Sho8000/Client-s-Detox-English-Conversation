@@ -14,7 +14,7 @@ export class App extends Component{
 
     const children = $(
       `<main></main>`
-    )
+    ) 
     this.parentElement.append(children)
     new Hero(children);
     new Index(children);
