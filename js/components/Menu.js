@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 import { BananaPic, mainCouse, mainCouseComment, mainCousesList, mainCousesPeriod, mainCousesTitle } from "../common/Variable.js";
 import { MenuSub } from "./Menu-sub.js";
 

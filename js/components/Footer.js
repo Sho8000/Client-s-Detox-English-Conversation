@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 import { NavTitle } from "../common/Variable.js";
 
 

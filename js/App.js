@@ -1,4 +1,4 @@
-import { Component } from "./common/component.js";
+import { Component } from "./component.js";
 import { About } from "./components/About.js";
 import { Blog } from "./components/Blog.js";
 import { Footer } from "./components/Footer.js";

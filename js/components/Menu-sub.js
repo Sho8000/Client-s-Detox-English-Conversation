@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 import { BananaPic, subCourseComment, subCourseExp, subCourseImg, subCoursePeriod, subCourseTitle } from "../common/Variable.js";
 
 export class MenuSub extends Component{
