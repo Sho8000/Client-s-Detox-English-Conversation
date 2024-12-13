@@ -62,12 +62,6 @@ main {
   display: none;
 }
 
-.indexPage main {
-  /*     @media only screen and (max-width:425px){
-        width: 100% !important;      
-      }
-   */
-}
 .indexPage main #heroSection {
   height: 560px !important;
 }
@@ -457,6 +451,7 @@ main {
   list-style: none;
   display: flex;
   gap: 56px;
+  padding: 0 1rem;
 }
 #app #footer .footer__container .footer__ulContainer .footer__ul .footer__li a {
   color: white;
@@ -464,6 +459,49 @@ main {
 #app #footer .footer__container .footer__icons {
   display: flex;
   gap: 15px;
+}
+@media only screen and (max-width: 899px) {
+  #app #footer .footer__container {
+    width: 90%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  #app #footer .footer__container .footer__ulContainer .footer__ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 1rem;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 549px) {
+  #app #footer {
+    height: 440px;
+  }
+  #app #footer .footer__container {
+    width: 90%;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  #app #footer .footer__container .footer__ulContainer .footer__ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 30px;
+    margin: 1rem 0 2rem 0;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

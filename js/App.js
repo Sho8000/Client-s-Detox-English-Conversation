@@ -15,15 +15,15 @@ export class App extends Component{
     const children = $(
       `<main></main>`
     )
-/*     this.parentElement.append(children)
-    new Hero(children);
+    this.parentElement.append(children)
+/*    new Hero(children);
     new Index(children);
     new Menu(children);
     new Voice(children);
     new About(children);
     new Blog(children);
-
+*/
     new Footer(this.parentElement);
- */  }
+  }
 
 }
