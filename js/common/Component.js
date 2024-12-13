@@ -1,7 +1,7 @@
 export class Component {
   #parentElement;
   #props;
-  #context;
+  #context; 
   #websiteName;
   #LineLink;
   #YoutubeLink;
