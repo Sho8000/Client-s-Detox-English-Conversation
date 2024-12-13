@@ -1,0 +1,426 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+body h1 {
+  font-size: 48px;
+}
+body h2 {
+  font-size: 40px;
+}
+body h3 {
+  font-size: 32px;
+}
+body h4 {
+  font-size: 28px;
+}
+body .font_p_xl {
+  font-size: 24px;
+}
+body .font_p_L {
+  font-size: 20px;
+}
+body .font_p_m {
+  font-size: 16px;
+}
+body .font_p_s {
+  font-size: 12px;
+}
+body .font_p_ss {
+  font-size: 10px;
+}
+body .fontWaitBold {
+  font-weight: 700;
+}
+body .fontWaitBoldNormal {
+  font-weight: 400;
+}
+body .coursePeriodColorB {
+  background-color: #1A7692;
+}
+body .coursePeriodColorG {
+  background-color: #248F5A;
+}
+body .coursePeriodColorR {
+  background-color: #B53A13;
+}
+body .coursePeriodColorY {
+  background-color: #A37C21;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 140px;
+}
+
+.indexPage main #heroSection {
+  height: 560px !important;
+}
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container {
+  width: 80%;
+  margin: auto;
+  place-content: left;
+}
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container .hero__title {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+.indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container .hero__comment {
+  color: white;
+}
+.indexPage main #heroSection .IndexPage__hero .LineLink {
+  width: 80%;
+  margin: auto;
+}
+.indexPage main #heroSection .IndexPage__hero .LineLink .lineBtn {
+  width: 142px;
+  line-height: 45px;
+  border-radius: 5px;
+  background-color: #00B800;
+  color: white;
+  border: none;
+  margin: auto;
+}
+
+#app #header {
+  width: 100%;
+  height: 125px;
+  position: fixed;
+  z-index: 999;
+  padding-top: 15px;
+  background-color: white;
+}
+#app #header .header__icons__area {
+  width: 90%;
+  margin: 0 auto 24px;
+}
+#app #header .header__icons__area .header__icons {
+  display: flex;
+  justify-content: right;
+  gap: 15px;
+}
+#app #header .header__nav__PC {
+  width: 90%;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#app #header .header__nav__PC .header__ulContainer .header__ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+}
+#app #header .header__nav__PC .header__ulContainer .header__ul .header__li a {
+  color: black;
+}
+#app #header .header__nav__PC .header__ulContainer .header__ul .header__li__LINE {
+  width: 142px;
+  line-height: 100%;
+  border-radius: 5px;
+  background-color: #00B800;
+  color: white;
+  border: none;
+  margin: auto;
+}
+#app #header .hamburgerSVG {
+  display: none;
+}
+@media only screen and (max-width: 815px) {
+  #app #header .header__ulContainer {
+    display: none;
+  }
+  #app #header .hamburgerSVG {
+    display: block;
+  }
+}
+#app html,
+#app body {
+  position: relative;
+  height: 100%;
+}
+#app body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#app swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#app swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 560px;
+  height: 300px;
+  position: relative;
+}
+#app swiper-slide .filterLeft {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+#app swiper-slide .filterRight {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  background-color: transparent;
+}
+#app swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#app main #heroSection {
+  width: 100%;
+  height: 210px;
+}
+#app main #heroSection .hero {
+  width: 100%;
+  height: 100%;
+  place-content: center;
+  background-size: cover;
+  background-position: 50%, 50%;
+}
+#app main #heroSection .hero .hero__title {
+  width: fit-content;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+#app main #heroSection .hero .hero__comment {
+  margin: 1rem 0;
+}
+#app main #heroSection .hero .LineLink {
+  margin-top: 40px;
+}
+#app main #heroSection .heroSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app main #heroSection .heroSub img {
+  height: 75px;
+  padding-left: 10px;
+}
+#app main #indexPage__contents {
+  width: 100%;
+}
+#app main #indexPage__contents .indexPage__container .indexPage__items {
+  min-height: 450px;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment {
+  display: flex;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .comments {
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .comments .mainComment {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  z-index: 2;
+  transform: translateY(-75%);
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .comments .mainComment img {
+  width: 570px;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .comments .lineBtn {
+  position: absolute;
+  z-index: 2;
+  bottom: 40px;
+  width: 142px;
+  line-height: 45px;
+  border-radius: 5px;
+  background-color: #00B800;
+  color: white;
+  border: none;
+  margin: auto 0;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .comments .lineBtn p {
+  margin: 0;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .mainPic {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+#app main #indexPage__contents .indexPage__container .Maincomment .mainPic img {
+  position: absolute;
+  width: 600px;
+  right: 0;
+}
+#app main #indexPage__contents .indexPage__container .Course {
+  display: flex;
+  flex-direction: column;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer {
+  width: 80%;
+  margin: 2rem auto;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseTitle {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList {
+  display: flex;
+  justify-content: space-between;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard {
+  width: 300px;
+  height: 320px;
+  background-color: #FCFCFC;
+  border-radius: 10px;
+  position: relative;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .cTitle {
+  text-align: center;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .cPeriod {
+  width: fit-content;
+  margin: auto;
+  padding: 0 1.5rem;
+  color: white;
+  border-radius: 15px;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .cPeriod .font_p_m {
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .cExp .list {
+  padding-left: 25px;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .cComment {
+  padding: 1rem;
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard .Banana {
+  position: absolute;
+  top: -5%;
+  left: -15%;
+  transform: rotate(-10deg);
+}
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseReadMore {
+  text-align: right;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness {
+  place-content: center;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .images {
+  position: relative;
+}
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .images .subImg {
+  position: absolute;
+  top: 60%;
+  left: 95%;
+  mix-blend-mode: darken;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment {
+  place-content: center;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images {
+  order: -1;
+  position: relative;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .subImg {
+  position: absolute;
+  top: -27%;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 0;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer img {
+  height: 50px;
+  margin-left: 1rem;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 65px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
+  width: 520px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard p {
+  text-align: center;
+  margin: auto;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard iframe {
+  width: 100%;
+  height: 293px;
+}
+#app main #indexPage__contents .indexPage__container .voiceContainer .readMore {
+  width: 90%;
+  text-align: right;
+  margin: auto;
+}
+#app main #indexPage__contents .odd {
+  background-color: #F2F0E9;
+}
+#app #footer {
+  width: 100%;
+  height: 140px;
+  background-color: #0095A7;
+  color: white;
+  place-content: center;
+}
+#app #footer .footer__container {
+  width: 90%;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+#app #footer .footer__container .footer__ulContainer .footer__ul {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+#app #footer .footer__container .footer__ulContainer .footer__ul .footer__li a {
+  color: white;
+}
+#app #footer .footer__container .footer__icons {
+  display: flex;
+  gap: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */

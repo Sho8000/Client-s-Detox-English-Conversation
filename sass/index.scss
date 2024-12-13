@@ -1,0 +1,457 @@
+// Commonpart CSS
+// body offset, header, footer, hero section
+$HeaderBG:white;
+$LineBG:#00B800;
+$FooterBG:#0095A7;
+$FontFamily: 'Noto Sans JP', sans-serif;
+$font_h1: 48px;
+$font_h2: 40px;
+$font_h3: 32px;
+$font_h4: 28px;
+$font_p_xl: 24px;
+$font_p_L: 20px;
+$font_p_m: 16px;
+$font_p_s: 12px;
+$font_p_ss: 10px;
+$fontWaitBold: 700;
+$fontWaitBoldNormal: 400;
+$coursePeriodColorB: #1A7692;
+$coursePeriodColorG: #248F5A;
+$coursePeriodColorR: #B53A13;
+$coursePeriodColorY: #A37C21;
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $FontFamily;
+  h1{font-size: $font_h1;}
+  h2{font-size: $font_h2;}
+  h3{font-size: $font_h3;}
+  h4{font-size: $font_h4;}
+  .font_p_xl{font-size: $font_p_xl;}
+  .font_p_L{font-size: $font_p_L;}
+  .font_p_m{font-size: $font_p_m;}
+  .font_p_s{font-size: $font_p_s;}
+  .font_p_ss{font-size: $font_p_ss;}
+  .fontWaitBold{font-weight: $fontWaitBold;}
+  .fontWaitBoldNormal{font-weight: $fontWaitBoldNormal;}
+  .coursePeriodColorB{background-color: $coursePeriodColorB;}
+  .coursePeriodColorG{background-color: $coursePeriodColorG;}
+  .coursePeriodColorR{background-color: $coursePeriodColorR;}
+  .coursePeriodColorY{background-color: $coursePeriodColorY;}
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  padding-top: 140px;
+}
+//////IndexHero Height////////////
+.indexPage{
+  main{
+    #heroSection{
+      height: 560px !important;
+      .IndexPage__hero{
+        .IndexPage__hero__container{
+          width: 80%;
+          margin: auto;
+          place-content: left;
+          .hero__title{
+            text-align: left !important;
+            margin-left: 0 !important;
+          }
+          .hero__comment{
+            color: white;
+          }
+        }
+        .LineLink{
+          width: 80%;
+          margin: auto;
+          .lineBtn{
+            width: 142px;
+            line-height: 45px;
+            border-radius: 5px;
+            background-color: $LineBG;
+            color: white;
+            border: none;
+            margin: auto;
+          }
+        }  
+      }
+    }
+  }
+}
+
+#app{
+/////Header//////////
+  #header{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 999;
+    padding-top: 15px;
+    background-color: $HeaderBG;
+    .header__icons__area{
+      width: 90%;
+      margin: 0 auto 24px;
+      .header__icons{
+        display: flex;
+        justify-content: right;
+        gap: 15px;
+      }
+    }
+  
+    .header__nav__PC{
+      width: 90%;
+      height: 45px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header__ulContainer{
+        .header__ul{
+          display: flex;
+          align-items: center;
+          list-style: none;
+          gap: 24px;
+          .header__li{
+            a{
+              color: black;
+            }
+          }
+          .header__li__LINE{
+            width: 142px;
+            line-height: 100%;
+            border-radius: 5px;
+            background-color: $LineBG;
+            color: white;
+            border: none;
+  
+            margin: auto;
+          }
+        }
+      }
+    }
+    .hamburgerSVG{
+      display: none;
+    }
+
+    //header Responsive
+    @media only screen and (max-width:815px){
+      .header__ulContainer{
+        display: none;
+      }
+      .hamburgerSVG{
+        display: block;
+      }        
+    }
+  }
+
+  //Index swiper part
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 560px;
+    height: 300px;
+    position: relative;
+    //because using Youtube page
+    //can't swipe on the video
+    //so added transparent box to
+    //add the swipe function on video
+    .filterLeft{
+      position: absolute;
+      width: 120px;
+      height: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: transparent;
+    }
+    .filterRight{
+      position: absolute;
+      width: 120px;
+      height: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      background-color: transparent;
+    }
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  //Index main part
+  main{
+    #heroSection{
+      width: 100%;
+      height: 210px;
+      .hero{
+        width: 100%;
+        height: 100%;
+        place-content: center;
+        background-size: cover;
+        background-position: 50%,50%;
+        .hero__title{
+          width: fit-content;
+          color: white;
+          text-align: center;
+          margin: 0;
+        }
+        .hero__comment{
+          margin: 1rem 0;
+        }
+        .LineLink{
+          margin-top: 40px;
+        }
+      }
+      .heroSub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          height: 75px;
+          padding-left: 10px;
+        }
+      }
+    }
+    #indexPage__contents{
+      width: 100%;
+      .indexPage__container{
+        .indexPage__items{
+          min-height: 450px;
+        }
+        .Maincomment{
+          display: flex;
+          .comments{
+            position: relative;
+            margin-top: 2rem;
+            margin-left: 5rem;
+            .mainComment{
+              position: absolute;
+              top: 50%;
+              left: 40%;
+              z-index: 2;
+              transform: translateY(-75%);
+              img{
+                width: 570px;
+              }
+            }
+            .lineBtn{
+              position: absolute;
+              z-index: 2;
+              bottom: 40px;
+              width: 142px;
+              line-height: 45px;
+              border-radius: 5px;
+              background-color: $LineBG;
+              color: white;
+              border: none;
+              margin: auto 0;
+              p{
+                margin: 0;
+              }
+            }  
+          }
+          .mainPic{
+            position: relative;
+            width: 100%;
+            height: 600px;
+            img{
+              position: absolute;
+              width: 600px;
+              right: 0;
+            }
+          }
+        }
+        .Course{
+          display: flex;
+          flex-direction: column;
+        .courseContainer{
+            width: 80%;
+            margin: 2rem auto;
+            .CourseTitle{
+              text-align: center;
+              margin-bottom: 60px;
+            }
+            .CourseList{
+              display: flex;
+              justify-content: space-between;
+              .courseCard{
+                width: 300px;
+                height: 320px;
+                background-color: #FCFCFC;
+                border-radius: 10px;
+                position: relative;
+                .cTitle{
+                  text-align: center;
+                }
+                .cPeriod{
+                  width: fit-content;
+                  margin: auto;
+                  padding: 0 1.5rem;
+                  color: white;
+                  border-radius: 15px;
+                  .font_p_m{
+                    margin: auto;
+                  }
+                }
+                .cExp{
+                  .list{
+                    padding-left: 25px;
+                  }
+                }
+                .cComment{
+                  padding: 1rem;
+                }
+                .Banana{
+                  position: absolute;
+                  top: -5%;
+                  left: -15%;
+                  transform: rotate(-10deg);
+                }
+              }
+            }
+            .CourseReadMore{
+              text-align: right;
+            }
+          }
+        }
+        .SubcommentThoughtness{
+          place-content: center;
+          .SubcommentThoughtnessContainer{
+            width: 75%;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin: auto;
+            .images{
+              position: relative;
+              .subImg{
+                position: absolute;
+                top: 60%;
+                left: 95%;
+                mix-blend-mode: darken;
+              }
+            }
+          }
+        }
+        .Subcomment{
+          place-content: center;
+          .SubcommentContainer{
+            width: 75%;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin: auto;
+            .images{
+              order: -1;
+              position: relative;
+              .subImg{
+                position: absolute;
+                top: -27%;
+              }
+            }
+          }
+        }
+        .voiceContainer{
+          width: 100%;
+          margin: auto;
+          padding: 2rem 0;
+          .titleContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+              height: 50px;
+              margin-left: 1rem;
+            }
+          }
+          .cardContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            row-gap: 65px;
+            .voiceCard{
+              width: 520px;
+              p{
+                text-align: center;
+                margin: auto;
+              }  
+              iframe{
+                width: 100%;
+                height: 293px;
+              }
+            }
+          }
+          .readMore{
+            width: 90%;
+            text-align: right;
+            margin: auto;
+          }  
+        }
+      }
+      .odd{
+        background-color: #F2F0E9;
+      }  
+    }
+  }
+  /////Footer//////////
+  #footer{
+    width: 100%;
+    height: 140px;
+    background-color: $FooterBG;
+    color: white;
+    place-content: center;
+    .footer__container{
+      width: 90%;
+      height: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+//      .footer__title{}
+      .footer__ulContainer{
+        .footer__ul{
+          list-style: none;
+          display: flex;
+          gap: 56px;
+          .footer__li{
+            a{
+              color: white;
+            }
+          }
+        }
+      }
+      .footer__icons{
+        display: flex;
+        gap: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+#About .aboutFlexContainer {
+  width: 100%;
+}
+#About .aboutFlexContainer .aboutFlex {
+  display: flex;
+  width: 100%;
+  min-height: 450px;
+  justify-content: center;
+  gap: 4rem;
+}
+#About .aboutFlexContainer .aboutFlex .text {
+  width: 40%;
+  margin-top: 60px;
+}
+#About .aboutFlexContainer .aboutFlex .text p {
+  margin-top: 0;
+}
+#About .aboutFlexContainer .aboutFlex .pic {
+  width: 40%;
+  margin-top: 60px;
+}
+#About .aboutFlexContainer .aboutFlex .pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+#About .aboutFlexContainer .odd {
+  background-color: #F2F0E9;
+}
+#About .aboutFlexContainer .odd .text {
+  order: 2;
+}
+#About .aboutFlexContainer .aboutCALife {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutCALife .Banana {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+#About .aboutFlexContainer .aboutCALife .Banana img {
+  width: 75px;
+}
+#About .aboutFlexContainer .aboutThought {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutThought .Banana {
+  position: absolute;
+  top: 45%;
+  left: 90%;
+}
+#About .aboutFlexContainer .aboutThought .Banana img {
+  width: 75px;
+  mix-blend-mode: darken;
+}
+#About .aboutFlexContainer .aboutThoughtRoot {
+  position: relative;
+}
+#About .aboutFlexContainer .aboutThoughtRoot .Banana {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  z-index: 0;
+}
+#About .aboutFlexContainer .aboutThoughtRoot .Banana img {
+  height: 75px;
+}
+#About .aboutYoutubeContainer {
+  width: 100%;
+  min-height: 450px;
+}
+#About .aboutYoutubeContainer .youtubeTitle {
+  display: flex;
+  align-items: center;
+  height: 125px;
+  text-align: center;
+  place-content: center;
+}
+#About .aboutYoutubeContainer .youtubeTitle img {
+  padding-right: 5px;
+}
+#About .aboutYoutubeContainer .youtubeArea {
+  width: 75%;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: auto;
+}
+#About .aboutYoutubeContainer .youtubeArea iframe {
+  border-radius: 10px;
+}
+#About .aboutYoutubeContainer .youtubeLink {
+  height: 135px;
+  text-align: center;
+  place-content: center;
+}
+#About .aboutYoutubeContainer .youtubeLink .youtubeBtn {
+  background-color: #FD1513;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  padding: 0 1.5rem;
+}
+
+/*# sourceMappingURL=About.css.map */
