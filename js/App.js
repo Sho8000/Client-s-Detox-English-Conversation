@@ -15,7 +15,7 @@ export class App extends Component{
     const children = $(
       `<main></main>`
     )
-    this.parentElement.append(children)
+/*     this.parentElement.append(children)
     new Hero(children);
     new Index(children);
     new Menu(children);
@@ -24,6 +24,6 @@ export class App extends Component{
     new Blog(children);
 
     new Footer(this.parentElement);
-  }
+ */  }
 
 }
