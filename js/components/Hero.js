@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 
 const BASE_CLASS = "hero";
 

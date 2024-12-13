@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 import { BananaPic, textTitle, textContent, aboutPics, aboutYoutube, textClassName, textIdName } from "../common/Variable.js";
 
 export class About extends Component{

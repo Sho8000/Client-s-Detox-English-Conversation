@@ -1,4 +1,4 @@
-import { Component } from "../common/component.js";
+import { Component } from "../component.js";
 import { Pictures, voiceTitle, customerVoice, googleReviews, customerVoiceFull } from "../common/Variable.js"
 
 export class Voice extends Component{
