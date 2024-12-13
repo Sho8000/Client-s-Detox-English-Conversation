@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "sass -w sass:css",
+    "productionBuild:css": "sass sass:css",
     "live": "live-server --verbose",
     "dev": "concurrently \"npm run build:css\" \"npm run live\""
   },
