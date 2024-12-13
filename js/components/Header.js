@@ -54,6 +54,16 @@ export class Header extends Component{
             <li class="${BASE_CLASS}__li"><a href="${this.LineLink}"><button class="${BASE_CLASS}__li__LINE font_p_m fontWaitBold"><p>LINEで相談！</p></button></a></li>
           </ul>
         </div>
+        <div class="${BASE_CLASS}__ulContainerHBG hide">
+          <ul class="${BASE_CLASS}__ul">
+            <li class="${BASE_CLASS}__li"><a href="${IndexHTML}" class="font_p_m fontWaitBold">${NavTitle[0]}</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${MenuHTML}" class="font_p_m fontWaitBold">${NavTitle[1]}</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${VoiceHTML}" class="font_p_m fontWaitBold">${NavTitle[2]}</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${AboutHTML}" class="font_p_m fontWaitBold">${NavTitle[3]}</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${BlogHTML}" class="font_p_m fontWaitBold">${NavTitle[4]}</a></li>
+            <li class="${BASE_CLASS}__li"><a href="${this.LineLink}"><button class="${BASE_CLASS}__li__LINE font_p_m fontWaitBold"><p>LINEで相談！</p></button></a></li>
+          </ul>
+        </div>
         <div class="hamburgerSVG">
           <svg width="60" height="47">
             <rect x="10" y="10" rx="1" ry="1" width="40" height="2"
@@ -69,6 +79,10 @@ export class Header extends Component{
     )
 
     this.parentElement.append(children);
+
+    $(".hamburgerSVG").on("click",()=>{
+      $(`.${BASE_CLASS}__ulContainerHBG`).toggleClass("hide");
+    })
   }
 
 }
