@@ -461,6 +461,43 @@ main{
         background-color: #F2F0E9;
       }  
     }
+
+    #heroSection{
+      @media only screen and (max-width:835px){
+        .heroMain{
+          background-position: 70%,50%;
+          .hero__title{
+            font-size: 36px;
+          }
+          .hero__comment{
+            font-size: 18px;
+          }  
+        }
+        .heroSub{
+          h1{
+            font-size: 40px;
+          }
+        }
+  
+      }
+      @media only screen and (max-width:500px){
+        .heroMain{
+          background-position: 70%,50%;
+          .hero__title{
+            font-size: 24px;
+          }
+          .hero__comment{
+            font-size: 16px;
+          }  
+        }
+        .heroSub{
+          h1{
+            font-size: 32px;
+          }
+        }
+
+      }
+    }
   }
   /////Footer//////////
   #footer{
