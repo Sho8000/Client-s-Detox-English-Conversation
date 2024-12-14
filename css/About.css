@@ -1,3 +1,6 @@
+#About {
+  overflow: hidden;
+}
 #About .aboutFlexContainer {
   width: 100%;
 }
@@ -101,6 +104,101 @@
   border-radius: 10px;
   height: 45px;
   padding: 0 1.5rem;
+}
+@media only screen and (max-width: 835px) {
+  #About .aboutFlexContainer {
+    width: 100%;
+  }
+  #About .aboutFlexContainer .aboutFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  #About .aboutFlexContainer .aboutFlex .text {
+    width: 80%;
+    margin-top: 30px;
+  }
+  #About .aboutFlexContainer .aboutFlex .text p {
+    margin-top: 0;
+  }
+  #About .aboutFlexContainer .aboutFlex .pic {
+    order: -1;
+    width: 80%;
+    margin-top: 60px;
+  }
+  #About .aboutFlexContainer .aboutFlex .pic img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #About .aboutFlexContainer .aboutFlex .pic::before {
+    content: "";
+    width: 40px;
+    height: 50px;
+    background-image: url(../resource/normal.svg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+  #About .aboutFlexContainer .aboutCALife {
+    position: relative;
+  }
+  #About .aboutFlexContainer .aboutCALife .Banana {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+  }
+  #About .aboutFlexContainer .aboutCALife .Banana img {
+    width: 75px;
+  }
+  #About .aboutFlexContainer .aboutThought {
+    position: relative;
+  }
+  #About .aboutFlexContainer .aboutThought .Banana {
+    position: absolute;
+    top: 45%;
+    left: 85%;
+  }
+  #About .aboutFlexContainer .aboutThought .Banana img {
+    width: 75px;
+    mix-blend-mode: darken;
+  }
+  #About .aboutFlexContainer .aboutThoughtRoot {
+    position: relative;
+  }
+  #About .aboutFlexContainer .aboutThoughtRoot .Banana {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    z-index: 0;
+  }
+  #About .aboutFlexContainer .aboutThoughtRoot .Banana img {
+    height: 75px;
+  }
+  #About .aboutYoutubeContainer .youtubeTitle {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    text-align: center;
+    place-content: center;
+  }
+  #About .aboutYoutubeContainer .youtubeTitle img {
+    padding-right: 5px;
+  }
+  #About .aboutYoutubeContainer .youtubeArea {
+    width: 75%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: auto;
+    padding: 5rem 0;
+  }
+  #About .aboutYoutubeContainer .youtubeArea iframe {
+    border-radius: 10px;
+  }
 }
 
 /*# sourceMappingURL=About.css.map */

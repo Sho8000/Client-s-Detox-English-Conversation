@@ -17,11 +17,16 @@ export class App extends Component{
     )
     this.parentElement.append(children)
     new Hero(children);
-//    new Index(children);
+    new Index(children);
+
+    new Menu(children);
+    new Voice(children);
+    new About(children);
 //    new Menu(children);
 //    new Voice(children);
 //    new About(children);
-    new Blog(children);
+
+  new Blog(children);
 
     new Footer(this.parentElement);
   }
