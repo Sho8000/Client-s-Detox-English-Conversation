@@ -35,25 +35,41 @@
 #About .aboutFlexContainer .aboutCALife {
   position: relative;
 }
-#About .aboutFlexContainer .aboutCALife .Banana {
-  position: absolute;
-  top: 10%;
-  left: 80%;
+#About .aboutFlexContainer .aboutCALife .text {
+  position: relative;
 }
-#About .aboutFlexContainer .aboutCALife .Banana img {
-  width: 75px;
+#About .aboutFlexContainer .aboutCALife .text::before {
+  content: "";
+  width: 64px;
+  height: 50px;
+  background-image: url(../resource/flying.svg);
+  background-size: contain;
+  background-position: center;
+  top: 2%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: darken;
+  position: absolute;
 }
 #About .aboutFlexContainer .aboutThought {
   position: relative;
 }
-#About .aboutFlexContainer .aboutThought .Banana {
-  position: absolute;
-  top: 45%;
-  left: 90%;
+#About .aboutFlexContainer .aboutThought .pic {
+  height: 100%;
+  position: relative;
 }
-#About .aboutFlexContainer .aboutThought .Banana img {
-  width: 75px;
+#About .aboutFlexContainer .aboutThought .pic::before {
+  content: "";
+  width: 40px;
+  height: 50px;
+  background-image: url(../resource/normal.svg);
+  background-size: cover;
+  background-position: center;
+  top: 70%;
+  left: 100%;
+  transform: translate(-50%, -50%);
   mix-blend-mode: darken;
+  position: absolute;
 }
 #About .aboutFlexContainer .aboutThoughtRoot {
   position: relative;
@@ -132,49 +148,27 @@
     width: 100%;
     border-radius: 10px;
   }
-  #About .aboutFlexContainer .aboutFlex .pic::before {
-    content: "";
-    width: 40px;
-    height: 50px;
-    background-image: url(../resource/normal.svg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-  }
   #About .aboutFlexContainer .aboutCALife {
     position: relative;
   }
-  #About .aboutFlexContainer .aboutCALife .Banana {
+  #About .aboutFlexContainer .aboutCALife .text::before {
+    content: "";
+    top: 2%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: darken;
     position: absolute;
-    top: 10%;
-    left: 70%;
-  }
-  #About .aboutFlexContainer .aboutCALife .Banana img {
-    width: 75px;
   }
   #About .aboutFlexContainer .aboutThought {
     position: relative;
   }
-  #About .aboutFlexContainer .aboutThought .Banana {
-    position: absolute;
-    top: 45%;
-    left: 85%;
-  }
-  #About .aboutFlexContainer .aboutThought .Banana img {
-    width: 75px;
-    mix-blend-mode: darken;
-  }
-  #About .aboutFlexContainer .aboutThoughtRoot {
+  #About .aboutFlexContainer .aboutThought .pic {
     position: relative;
   }
-  #About .aboutFlexContainer .aboutThoughtRoot .Banana {
-    position: absolute;
-    top: 2%;
-    left: 10%;
-    z-index: 0;
-  }
-  #About .aboutFlexContainer .aboutThoughtRoot .Banana img {
-    height: 75px;
+  #About .aboutFlexContainer .aboutThought .pic::before {
+    top: 70%;
+    left: 100%;
+    transform: translate(-50%, -50%);
   }
   #About .aboutYoutubeContainer .youtubeTitle {
     display: flex;

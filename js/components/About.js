@@ -39,8 +39,6 @@ export class About extends Component{
       }
 
       //add Banana Pics
-      children.find(".aboutCALife").append(`<div class="Banana">${BananaPic[3]}</div>`)
-      children.find(".aboutThought").append(`<div class="Banana">${BananaPic[0]}</div>`)
       children.find(".aboutThoughtRoot").append(`<div class="Banana">${BananaPic[1]}</div>`)
 
       //Youtube channel
