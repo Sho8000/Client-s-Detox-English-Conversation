@@ -74,14 +74,22 @@
 #About .aboutFlexContainer .aboutThoughtRoot {
   position: relative;
 }
-#About .aboutFlexContainer .aboutThoughtRoot .Banana {
-  position: absolute;
-  top: 2%;
-  left: 10%;
-  z-index: 0;
+#About .aboutFlexContainer .aboutThoughtRoot .pic {
+  height: 100%;
+  position: relative;
 }
-#About .aboutFlexContainer .aboutThoughtRoot .Banana img {
-  height: 75px;
+#About .aboutFlexContainer .aboutThoughtRoot .pic::before {
+  content: "";
+  width: 45px;
+  height: 45px;
+  background-image: url(../resource/bud.svg);
+  background-size: cover;
+  background-position: center;
+  top: 0%;
+  left: 10%;
+  transform: translate(-50%, -100%);
+  mix-blend-mode: darken;
+  position: absolute;
 }
 #About .aboutYoutubeContainer {
   width: 100%;

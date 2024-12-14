@@ -38,9 +38,6 @@ export class About extends Component{
         children.find(".aboutFlexContainer").append(addAboutFlexContainer);
       }
 
-      //add Banana Pics
-      children.find(".aboutThoughtRoot").append(`<div class="Banana">${BananaPic[1]}</div>`)
-
       //Youtube channel
       for(let i=0; i<aboutYoutube.length; i++){
         let YoutubeChannel = $(
