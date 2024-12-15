@@ -180,5 +180,64 @@
   grid-area: comment;
   width: 90%;
 }
+@media only screen and (max-width: 789px) {
+  #Menu .Menu__mainCouse .Menu__mainCouse__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__title {
+    width: 100%;
+  }
+  #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    margin: 3rem auto 1rem;
+  }
+  #Menu .Menu__subCourse {
+    width: 90%;
+    margin: auto;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__title {
+    width: 100%;
+    height: 65px;
+    background-color: #DCDAD4;
+    place-content: center;
+    padding-left: 0;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__title .font_p_xl {
+    padding-left: 2rem;
+    margin: auto;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img {
+    grid-area: img;
+    justify-self: center;
+    width: 90%;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__img :nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 50px;
+  }
+}
 
 /*# sourceMappingURL=Menu.css.map */

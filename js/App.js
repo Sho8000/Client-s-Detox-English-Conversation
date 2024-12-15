@@ -22,7 +22,6 @@ export class App extends Component{
     new Menu(children);
     new Voice(children);
     new About(children);
-//    new Menu(children);
     new Blog(children);
 
     new Footer(this.parentElement);

@@ -194,4 +194,67 @@
       }
     }
   } 
+
+  @media only screen and (max-width:789px){
+    .Menu__mainCouse{
+      .Menu__mainCouse__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        
+        .Menu__mainCouse__card__title{
+          width: 100%;
+        }
+        .Menu__mainCouse__card__courseCardContainer{
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          column-gap: 3rem;
+          row-gap: 3rem;
+          margin: 3rem auto 1rem;
+        }
+      }
+    }  
+    .Menu__subCourse{
+      width: 90%;
+      margin: auto;
+      .Menu__subCouse__card{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        .Menu__subCouse__card__title{
+          width: 100%;
+          height: 65px;
+          background-color: #DCDAD4;
+          place-content: center;
+          padding-left: 0;
+          .font_p_xl{
+            padding-left: 2rem;
+            margin: auto;
+          }
+        }
+        .Menu__subCouse__card__img{
+          grid-area: img;
+          justify-self: center;
+          width: 90%;
+          position: relative;
+          margin-bottom: 2rem;
+          img{
+            width: 100%;
+            border-radius: 5px;
+          }
+          :nth-child(2){
+            position: absolute;
+            top: 30%;
+            left: 80%;
+            width: 50px;
+          }
+        }
+      }
+    } 
+  }
 }
