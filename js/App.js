@@ -24,7 +24,6 @@ export class App extends Component{
     new About(children);
 //    new Menu(children);
 //    new Voice(children);
-//    new About(children);
 
   new Blog(children);
 
