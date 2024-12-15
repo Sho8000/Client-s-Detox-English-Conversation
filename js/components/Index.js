@@ -13,7 +13,7 @@ export class Index extends Component{
           </div>
         </section>`
       )
-      for(let i=2;i<IndexContents.length;i++){
+      for(let i=1;i<IndexContents.length;i++){
       //add each section contents
       let odd = "";
         if(i%2===0){
@@ -54,7 +54,8 @@ export class Index extends Component{
             eachContents = $(
               `<div class="comments">
                 <div class="mainComment">
-                  <img src="resource/buchake.png" alt="mainComment">
+                  <img src="resource/buchake.png" alt="mainComment" class="buchakePC">
+                  <img src="resource/Buchake_Phone.png" alt="mainComment" class="buchakePhone">
                 </div>
                 <div class="lineBtn">
                   <a href="${this.LineLink}"><button class="lineBtn"><p class="font_p_m fontWaitBold">LINEで相談！</p></button></a></div>
