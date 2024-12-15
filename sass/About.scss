@@ -195,7 +195,7 @@
       }
       .youtubeArea{
         width: 75%;
-        height: 175px;
+        min-height: 175px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -203,8 +203,18 @@
         margin: auto;
         padding: 5rem 0;
         iframe{
+          width: 300px;
           border-radius: 10px;
+          margin: auto;
         }
+      }
+    }  
+  }
+
+  @media only screen and (max-width:425px){
+    .aboutYoutubeContainer{
+      .youtubeArea{
+        width: 100%;
       }
     }  
   }
