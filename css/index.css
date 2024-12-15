@@ -226,6 +226,1100 @@ main {
   display: block;
   width: 100%;
 }
+#app main {
+  /*     #indexPage__contents{
+        width: 100%;
+        .indexPage__container{
+          .indexPage__items{
+            min-height: 450px;
+          }
+          .Maincomment{
+            display: flex;
+            .comments{
+              position: relative;
+              margin-top: 2rem;
+              margin-left: 5rem;
+              .mainComment{
+                position: absolute;
+                top: 50%;
+                left: 40%;
+                z-index: 2;
+                transform: translateY(-75%);
+                img{
+                  width: 570px;
+                }
+              }
+              .lineBtn{
+                position: absolute;
+                z-index: 2;
+                bottom: 40px;
+                width: 142px;
+                line-height: 45px;
+                border-radius: 5px;
+                background-color: $LineBG;
+                color: white;
+                border: none;
+                margin: auto 0;
+                p{
+                  margin: 0;
+                }
+              }  
+            }
+            .mainPic{
+              position: relative;
+              width: 100%;
+              height: 600px;
+              img{
+                position: absolute;
+                width: 600px;
+                right: 0;
+              }
+            }
+          }
+          .Course{
+            display: flex;
+            flex-direction: column;
+          .courseContainer{
+              width: 80%;
+              margin: 2rem auto;
+              .CourseTitle{
+                text-align: center;
+                margin-bottom: 60px;
+              }
+              .CourseList{
+                display: flex;
+                justify-content: space-between;
+                .courseCard{
+                  width: 300px;
+                  height: 320px;
+                  background-color: #FCFCFC;
+                  border-radius: 10px;
+                  position: relative;
+                  .cTitle{
+                    text-align: center;
+                  }
+                  .cPeriod{
+                    width: fit-content;
+                    margin: auto;
+                    padding: 0 1.5rem;
+                    color: white;
+                    border-radius: 15px;
+                    .font_p_m{
+                      margin: auto;
+                    }
+                  }
+                  .cExp{
+                    .list{
+                      padding-left: 25px;
+                    }
+                  }
+                  .cComment{
+                    padding: 1rem;
+                  }
+                  .Banana{
+                    position: absolute;
+                    top: -5%;
+                    left: -15%;
+                    transform: rotate(-10deg);
+                  }
+                }
+              }
+              .CourseReadMore{
+                text-align: right;
+              }
+            }
+          }
+          .SubcommentThoughtness{
+            place-content: center;
+            .SubcommentThoughtnessContainer{
+              width: 75%;
+              display: flex;
+              align-items: center;
+              gap: 60px;
+              margin: auto;
+              .images{
+                position: relative;
+                .subImg{
+                  position: absolute;
+                  top: 60%;
+                  left: 95%;
+                  mix-blend-mode: darken;
+                }
+              }
+            }
+          }
+          .Subcomment{
+            place-content: center;
+            .SubcommentContainer{
+              width: 75%;
+              display: flex;
+              align-items: center;
+              gap: 60px;
+              margin: auto;
+              .images{
+                order: -1;
+                position: relative;
+                .subImg{
+                  position: absolute;
+                  top: -27%;
+                }
+              }
+            }
+          }
+          .voiceContainer{
+            width: 100%;
+            margin: auto;
+            padding: 2rem 0;
+            .titleContainer{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img{
+                height: 50px;
+                margin-left: 1rem;
+              }
+            }
+            .cardContainer{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-evenly;
+              row-gap: 65px;
+              .voiceCard{
+                width: 520px;
+                p{
+                  text-align: center;
+                  margin: auto;
+                }  
+                iframe{
+                  width: 100%;
+                  height: 293px;
+                }
+              }
+            }
+            .readMore{
+              width: 90%;
+              text-align: right;
+              margin: auto;
+            }  
+          }
+        }
+        .odd{
+          background-color: #F2F0E9;
+        }  
+      }
+   */
+  /*     @media only screen and (max-width:549px){
+        #indexPage__contents{
+          .indexPage__container{
+            .indexPage__items{
+              min-height: 450px;
+            }
+            .Maincomment{
+              display: flex;
+              .comments{
+                position: relative;
+                margin-top: 2rem;
+                margin-left: 5rem;
+                .mainComment{
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  z-index: 2;
+                  transform: translateY(-75%);
+                  img{
+                    width: 570px;
+                  }
+                }
+                .lineBtn{
+                  position: absolute;
+                  z-index: 2;
+                  bottom: 40px;
+                  width: 142px;
+                  line-height: 45px;
+                  border-radius: 5px;
+                  background-color: $LineBG;
+                  color: white;
+                  border: none;
+                  margin: auto 0;
+                  p{
+                    margin: 0;
+                  }
+                }  
+              }
+              .mainPic{
+                position: relative;
+                width: 100%;
+                height: 600px;
+                img{
+                  position: absolute;
+                  width: 600px;
+                  right: 0;
+                }
+              }
+            }
+            .Course{
+              display: flex;
+              flex-direction: column;
+            .courseContainer{
+                width: 80%;
+                margin: 2rem auto;
+                .CourseTitle{
+                  text-align: center;
+                  margin-bottom: 60px;
+                }
+                .CourseList{
+                  display: flex;
+                  justify-content: space-between;
+                  .courseCard{
+                    width: 300px;
+                    height: 320px;
+                    background-color: #FCFCFC;
+                    border-radius: 10px;
+                    position: relative;
+                    .cTitle{
+                      text-align: center;
+                    }
+                    .cPeriod{
+                      width: fit-content;
+                      margin: auto;
+                      padding: 0 1.5rem;
+                      color: white;
+                      border-radius: 15px;
+                      .font_p_m{
+                        margin: auto;
+                      }
+                    }
+                    .cExp{
+                      .list{
+                        padding-left: 25px;
+                      }
+                    }
+                    .cComment{
+                      padding: 1rem;
+                    }
+                    .Banana{
+                      position: absolute;
+                      top: -5%;
+                      left: -15%;
+                      transform: rotate(-10deg);
+                    }
+                  }
+                }
+                .CourseReadMore{
+                  text-align: right;
+                }
+              }
+            }
+            .SubcommentThoughtness{
+              place-content: center;
+              .SubcommentThoughtnessContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: 60%;
+                    left: 95%;
+                    mix-blend-mode: darken;
+                  }
+                }
+              }
+            }
+            .Subcomment{
+              place-content: center;
+              .SubcommentContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  order: -1;
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: -27%;
+                  }
+                }
+              }
+            }
+            .voiceContainer{
+              width: 100%;
+              margin: auto;
+              padding: 2rem 0;
+              .titleContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  height: 50px;
+                  margin-left: 1rem;
+                }
+              }
+              .cardContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                row-gap: 65px;
+                .voiceCard{
+                  width: 520px;
+                  p{
+                    text-align: center;
+                    margin: auto;
+                  }  
+                  iframe{
+                    width: 100%;
+                    height: 293px;
+                  }
+                }
+              }
+              .readMore{
+                width: 90%;
+                text-align: right;
+                margin: auto;
+              }  
+            }
+          }
+          .odd{
+            background-color: #F2F0E9;
+          }  
+        }
+      }
+   */
+  /*     @media only screen and (max-width:549px){
+        #indexPage__contents{
+          .indexPage__container{
+            .indexPage__items{
+              min-height: 450px;
+            }
+            .Maincomment{
+              display: flex;
+              .comments{
+                position: relative;
+                margin-top: 2rem;
+                margin-left: 5rem;
+                .mainComment{
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  z-index: 2;
+                  transform: translateY(-75%);
+                  img{
+                    width: 570px;
+                  }
+                }
+                .lineBtn{
+                  position: absolute;
+                  z-index: 2;
+                  bottom: 40px;
+                  width: 142px;
+                  line-height: 45px;
+                  border-radius: 5px;
+                  background-color: $LineBG;
+                  color: white;
+                  border: none;
+                  margin: auto 0;
+                  p{
+                    margin: 0;
+                  }
+                }  
+              }
+              .mainPic{
+                position: relative;
+                width: 100%;
+                height: 600px;
+                img{
+                  position: absolute;
+                  width: 600px;
+                  right: 0;
+                }
+              }
+            }
+            .Course{
+              display: flex;
+              flex-direction: column;
+            .courseContainer{
+                width: 80%;
+                margin: 2rem auto;
+                .CourseTitle{
+                  text-align: center;
+                  margin-bottom: 60px;
+                }
+                .CourseList{
+                  display: flex;
+                  justify-content: space-between;
+                  .courseCard{
+                    width: 300px;
+                    height: 320px;
+                    background-color: #FCFCFC;
+                    border-radius: 10px;
+                    position: relative;
+                    .cTitle{
+                      text-align: center;
+                    }
+                    .cPeriod{
+                      width: fit-content;
+                      margin: auto;
+                      padding: 0 1.5rem;
+                      color: white;
+                      border-radius: 15px;
+                      .font_p_m{
+                        margin: auto;
+                      }
+                    }
+                    .cExp{
+                      .list{
+                        padding-left: 25px;
+                      }
+                    }
+                    .cComment{
+                      padding: 1rem;
+                    }
+                    .Banana{
+                      position: absolute;
+                      top: -5%;
+                      left: -15%;
+                      transform: rotate(-10deg);
+                    }
+                  }
+                }
+                .CourseReadMore{
+                  text-align: right;
+                }
+              }
+            }
+            .SubcommentThoughtness{
+              place-content: center;
+              .SubcommentThoughtnessContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: 60%;
+                    left: 95%;
+                    mix-blend-mode: darken;
+                  }
+                }
+              }
+            }
+            .Subcomment{
+              place-content: center;
+              .SubcommentContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  order: -1;
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: -27%;
+                  }
+                }
+              }
+            }
+            .voiceContainer{
+              width: 100%;
+              margin: auto;
+              padding: 2rem 0;
+              .titleContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  height: 50px;
+                  margin-left: 1rem;
+                }
+              }
+              .cardContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                row-gap: 65px;
+                .voiceCard{
+                  width: 520px;
+                  p{
+                    text-align: center;
+                    margin: auto;
+                  }  
+                  iframe{
+                    width: 100%;
+                    height: 293px;
+                  }
+                }
+              }
+              .readMore{
+                width: 90%;
+                text-align: right;
+                margin: auto;
+              }  
+            }
+          }
+          .odd{
+            background-color: #F2F0E9;
+          }  
+        }
+      }
+   */
+  /*     @media only screen and (max-width:549px){
+        #indexPage__contents{
+          .indexPage__container{
+            .indexPage__items{
+              min-height: 450px;
+            }
+            .Maincomment{
+              display: flex;
+              .comments{
+                position: relative;
+                margin-top: 2rem;
+                margin-left: 5rem;
+                .mainComment{
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  z-index: 2;
+                  transform: translateY(-75%);
+                  img{
+                    width: 570px;
+                  }
+                }
+                .lineBtn{
+                  position: absolute;
+                  z-index: 2;
+                  bottom: 40px;
+                  width: 142px;
+                  line-height: 45px;
+                  border-radius: 5px;
+                  background-color: $LineBG;
+                  color: white;
+                  border: none;
+                  margin: auto 0;
+                  p{
+                    margin: 0;
+                  }
+                }  
+              }
+              .mainPic{
+                position: relative;
+                width: 100%;
+                height: 600px;
+                img{
+                  position: absolute;
+                  width: 600px;
+                  right: 0;
+                }
+              }
+            }
+            .Course{
+              display: flex;
+              flex-direction: column;
+            .courseContainer{
+                width: 80%;
+                margin: 2rem auto;
+                .CourseTitle{
+                  text-align: center;
+                  margin-bottom: 60px;
+                }
+                .CourseList{
+                  display: flex;
+                  justify-content: space-between;
+                  .courseCard{
+                    width: 300px;
+                    height: 320px;
+                    background-color: #FCFCFC;
+                    border-radius: 10px;
+                    position: relative;
+                    .cTitle{
+                      text-align: center;
+                    }
+                    .cPeriod{
+                      width: fit-content;
+                      margin: auto;
+                      padding: 0 1.5rem;
+                      color: white;
+                      border-radius: 15px;
+                      .font_p_m{
+                        margin: auto;
+                      }
+                    }
+                    .cExp{
+                      .list{
+                        padding-left: 25px;
+                      }
+                    }
+                    .cComment{
+                      padding: 1rem;
+                    }
+                    .Banana{
+                      position: absolute;
+                      top: -5%;
+                      left: -15%;
+                      transform: rotate(-10deg);
+                    }
+                  }
+                }
+                .CourseReadMore{
+                  text-align: right;
+                }
+              }
+            }
+            .SubcommentThoughtness{
+              place-content: center;
+              .SubcommentThoughtnessContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: 60%;
+                    left: 95%;
+                    mix-blend-mode: darken;
+                  }
+                }
+              }
+            }
+            .Subcomment{
+              place-content: center;
+              .SubcommentContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  order: -1;
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: -27%;
+                  }
+                }
+              }
+            }
+            .voiceContainer{
+              width: 100%;
+              margin: auto;
+              padding: 2rem 0;
+              .titleContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  height: 50px;
+                  margin-left: 1rem;
+                }
+              }
+              .cardContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                row-gap: 65px;
+                .voiceCard{
+                  width: 520px;
+                  p{
+                    text-align: center;
+                    margin: auto;
+                  }  
+                  iframe{
+                    width: 100%;
+                    height: 293px;
+                  }
+                }
+              }
+              .readMore{
+                width: 90%;
+                text-align: right;
+                margin: auto;
+              }  
+            }
+          }
+          .odd{
+            background-color: #F2F0E9;
+          }  
+        }
+      }
+
+   */
+  /*     @media only screen and (max-width:549px){
+        #indexPage__contents{
+          .indexPage__container{
+            .indexPage__items{
+              min-height: 450px;
+            }
+            .Maincomment{
+              display: flex;
+              .comments{
+                position: relative;
+                margin-top: 2rem;
+                margin-left: 5rem;
+                .mainComment{
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  z-index: 2;
+                  transform: translateY(-75%);
+                  img{
+                    width: 570px;
+                  }
+                }
+                .lineBtn{
+                  position: absolute;
+                  z-index: 2;
+                  bottom: 40px;
+                  width: 142px;
+                  line-height: 45px;
+                  border-radius: 5px;
+                  background-color: $LineBG;
+                  color: white;
+                  border: none;
+                  margin: auto 0;
+                  p{
+                    margin: 0;
+                  }
+                }  
+              }
+              .mainPic{
+                position: relative;
+                width: 100%;
+                height: 600px;
+                img{
+                  position: absolute;
+                  width: 600px;
+                  right: 0;
+                }
+              }
+            }
+            .Course{
+              display: flex;
+              flex-direction: column;
+            .courseContainer{
+                width: 80%;
+                margin: 2rem auto;
+                .CourseTitle{
+                  text-align: center;
+                  margin-bottom: 60px;
+                }
+                .CourseList{
+                  display: flex;
+                  justify-content: space-between;
+                  .courseCard{
+                    width: 300px;
+                    height: 320px;
+                    background-color: #FCFCFC;
+                    border-radius: 10px;
+                    position: relative;
+                    .cTitle{
+                      text-align: center;
+                    }
+                    .cPeriod{
+                      width: fit-content;
+                      margin: auto;
+                      padding: 0 1.5rem;
+                      color: white;
+                      border-radius: 15px;
+                      .font_p_m{
+                        margin: auto;
+                      }
+                    }
+                    .cExp{
+                      .list{
+                        padding-left: 25px;
+                      }
+                    }
+                    .cComment{
+                      padding: 1rem;
+                    }
+                    .Banana{
+                      position: absolute;
+                      top: -5%;
+                      left: -15%;
+                      transform: rotate(-10deg);
+                    }
+                  }
+                }
+                .CourseReadMore{
+                  text-align: right;
+                }
+              }
+            }
+            .SubcommentThoughtness{
+              place-content: center;
+              .SubcommentThoughtnessContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: 60%;
+                    left: 95%;
+                    mix-blend-mode: darken;
+                  }
+                }
+              }
+            }
+            .Subcomment{
+              place-content: center;
+              .SubcommentContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  order: -1;
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: -27%;
+                  }
+                }
+              }
+            }
+            .voiceContainer{
+              width: 100%;
+              margin: auto;
+              padding: 2rem 0;
+              .titleContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  height: 50px;
+                  margin-left: 1rem;
+                }
+              }
+              .cardContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                row-gap: 65px;
+                .voiceCard{
+                  width: 520px;
+                  p{
+                    text-align: center;
+                    margin: auto;
+                  }  
+                  iframe{
+                    width: 100%;
+                    height: 293px;
+                  }
+                }
+              }
+              .readMore{
+                width: 90%;
+                text-align: right;
+                margin: auto;
+              }  
+            }
+          }
+          .odd{
+            background-color: #F2F0E9;
+          }  
+        }
+      }
+   */
+  /*     @media only screen and (max-width:549px){
+        #indexPage__contents{
+          .indexPage__container{
+            .indexPage__items{
+              min-height: 450px;
+            }
+            .Maincomment{
+              display: flex;
+              .comments{
+                position: relative;
+                margin-top: 2rem;
+                margin-left: 5rem;
+                .mainComment{
+                  position: absolute;
+                  top: 50%;
+                  left: 40%;
+                  z-index: 2;
+                  transform: translateY(-75%);
+                  img{
+                    width: 570px;
+                  }
+                }
+                .lineBtn{
+                  position: absolute;
+                  z-index: 2;
+                  bottom: 40px;
+                  width: 142px;
+                  line-height: 45px;
+                  border-radius: 5px;
+                  background-color: $LineBG;
+                  color: white;
+                  border: none;
+                  margin: auto 0;
+                  p{
+                    margin: 0;
+                  }
+                }  
+              }
+              .mainPic{
+                position: relative;
+                width: 100%;
+                height: 600px;
+                img{
+                  position: absolute;
+                  width: 600px;
+                  right: 0;
+                }
+              }
+            }
+            .Course{
+              display: flex;
+              flex-direction: column;
+            .courseContainer{
+                width: 80%;
+                margin: 2rem auto;
+                .CourseTitle{
+                  text-align: center;
+                  margin-bottom: 60px;
+                }
+                .CourseList{
+                  display: flex;
+                  justify-content: space-between;
+                  .courseCard{
+                    width: 300px;
+                    height: 320px;
+                    background-color: #FCFCFC;
+                    border-radius: 10px;
+                    position: relative;
+                    .cTitle{
+                      text-align: center;
+                    }
+                    .cPeriod{
+                      width: fit-content;
+                      margin: auto;
+                      padding: 0 1.5rem;
+                      color: white;
+                      border-radius: 15px;
+                      .font_p_m{
+                        margin: auto;
+                      }
+                    }
+                    .cExp{
+                      .list{
+                        padding-left: 25px;
+                      }
+                    }
+                    .cComment{
+                      padding: 1rem;
+                    }
+                    .Banana{
+                      position: absolute;
+                      top: -5%;
+                      left: -15%;
+                      transform: rotate(-10deg);
+                    }
+                  }
+                }
+                .CourseReadMore{
+                  text-align: right;
+                }
+              }
+            }
+            .SubcommentThoughtness{
+              place-content: center;
+              .SubcommentThoughtnessContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: 60%;
+                    left: 95%;
+                    mix-blend-mode: darken;
+                  }
+                }
+              }
+            }
+            .Subcomment{
+              place-content: center;
+              .SubcommentContainer{
+                width: 75%;
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                margin: auto;
+                .images{
+                  order: -1;
+                  position: relative;
+                  .subImg{
+                    position: absolute;
+                    top: -27%;
+                  }
+                }
+              }
+            }
+            .voiceContainer{
+              width: 100%;
+              margin: auto;
+              padding: 2rem 0;
+              .titleContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                  height: 50px;
+                  margin-left: 1rem;
+                }
+              }
+              .cardContainer{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                row-gap: 65px;
+                .voiceCard{
+                  width: 520px;
+                  p{
+                    text-align: center;
+                    margin: auto;
+                  }  
+                  iframe{
+                    width: 100%;
+                    height: 293px;
+                  }
+                }
+              }
+              .readMore{
+                width: 90%;
+                text-align: right;
+                margin: auto;
+              }  
+            }
+          }
+          .odd{
+            background-color: #F2F0E9;
+          }  
+        }
+      }
+   */
+}
 #app main #heroSection {
   width: 100%;
   height: 210px;
@@ -460,6 +1554,45 @@ main {
   }
   #app main #heroSection .heroSub h1 {
     font-size: 32px;
+  }
+}
+@media only screen and (max-width: 549px) {
+  #app main #indexPage__contents .indexPage__container .voiceContainer {
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .titleContainer img {
+    height: 50px;
+    margin-left: 1rem;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
+    row-gap: 45px;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
+    justify-items: center;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard p {
+    text-align: center;
+    margin: auto;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard iframe {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .readMore {
+    width: 90%;
+    text-align: right;
+    margin: auto;
+  }
+  #app main #indexPage__contents .odd {
+    background-color: #F2F0E9;
   }
 }
 #app #footer {
