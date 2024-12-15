@@ -13,7 +13,7 @@ export class Index extends Component{
           </div>
         </section>`
       )
-      for(let i=3;i<IndexContents.length;i++){
+      for(let i=2;i<IndexContents.length;i++){
       //add each section contents
       let odd = "";
         if(i%2===0){
