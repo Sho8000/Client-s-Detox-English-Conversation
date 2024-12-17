@@ -71,7 +71,7 @@ export class Index extends Component{
             eachContents = $(
               `<div class="courseContainer">
                 <div class="CourseTitle">
-                  <p class=""font_p_xl fontWaitBold>コース</p>
+                  <p class="font_p_xl fontWaitBold">コース</p>
                 </div>
                 <div class="CourseList"></div>
                 <a href="../pages/Menu.html"><div class="CourseReadMore"><p class="font_p_L fontWaitBold">Read more &gt;</p></div></a>
