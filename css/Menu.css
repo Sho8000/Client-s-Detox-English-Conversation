@@ -9,7 +9,7 @@
   display: none !important;
 }
 #Menu .Menu__mainCouse {
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 #Menu .Menu__mainCouse .Menu__mainCouse__card {
@@ -117,7 +117,7 @@
   margin: auto;
 }
 #Menu .Menu__subCourse {
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 #Menu .Menu__subCourse .Menu__subCouse__card {
@@ -201,7 +201,6 @@
     margin: 3rem auto 1rem;
   }
   #Menu .Menu__subCourse {
-    width: 90%;
     margin: auto;
   }
   #Menu .Menu__subCourse .Menu__subCouse__card {
