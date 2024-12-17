@@ -280,7 +280,7 @@ main {
   transform: translateY(-75%);
 }
 #app main #indexPage__contents .indexPage__container .Maincomment .comments .mainComment img {
-  width: 570px;
+  width: 690px;
 }
 #app main #indexPage__contents .indexPage__container .Maincomment .comments .mainComment .buchakePhone {
   display: none;
@@ -465,7 +465,7 @@ main {
     font-size: 32px;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1149px) {
   #app main #indexPage__contents .indexPage__container .Maincomment {
     display: flex;
     flex-direction: column;

@@ -300,7 +300,7 @@ main{
               z-index: 2;
               transform: translateY(-75%);
               img{
-                width: 570px;
+                width: 690px;
               }
               .buchakePhone{
                 display: none;
@@ -506,7 +506,7 @@ main{
 
     //Responsice for contents
     //For `Maincomment`,
-    @media only screen and (max-width:1024px){
+    @media only screen and (max-width:1149px){
       #indexPage__contents{
         .indexPage__container{
           .Maincomment{
