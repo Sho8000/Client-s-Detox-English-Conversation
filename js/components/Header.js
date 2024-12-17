@@ -66,11 +66,11 @@ export class Header extends Component{
         </div>
         <div class="hamburgerSVG">
           <svg width="60" height="47">
-            <rect x="10" y="10" rx="1" ry="1" width="40" height="2"
+            <rect x="10" y="10" rx="1" ry="1" width="40" height="1"
             style="fill:black;stroke:black;stroke-width:5;" />
-            <rect x="10" y="22" rx="1" ry="1" width="40" height="2"
+            <rect x="10" y="22" rx="1" ry="1" width="40" height="1"
             style="fill:black;stroke:black;stroke-width:5;" />
-            <rect x="10" y="34" rx="1" ry="1" width="40" height="2"
+            <rect x="10" y="34" rx="1" ry="1" width="40" height="1"
             style="fill:black;stroke:black;stroke-width:5;" />
           </svg>
         </div>
