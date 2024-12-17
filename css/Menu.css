@@ -112,6 +112,7 @@
   height: 100%;
   background-color: transparent;
   border: none;
+  font-family: "Noto Sans JP", sans-serif;
 }
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__showMore .showMoreBtn .font_p_L {
   margin: auto;
