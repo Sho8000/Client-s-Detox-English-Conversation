@@ -1,5 +1,5 @@
 import { Component } from "../common/component.js";
-import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle, BananaPic, IndexSubbommentThoughtness, IndexCourseTitle, IndexCoursePeriod, IndexCourseComment, IndexCourseExp, textIdName } from "../common/Variable.js";
+import { IndexContents, IndexYoutube, IndexSubbomment, Pictures, voiceTitle, BananaPic, IndexSubbommentThoughtness, IndexCourseTitle, IndexCoursePeriod, IndexCourseComment, IndexCourseExp, textIdName, mainCouse } from "../common/Variable.js";
 
 const BASE_CLASS = "indexPage";
 
@@ -74,7 +74,10 @@ export class Index extends Component{
                   <p class="font_p_xl fontWaitBold">コース</p>
                 </div>
                 <div class="CourseList"></div>
-                <a href="../pages/Menu.html"><div class="CourseReadMore"><p class="font_p_L fontWaitBold">Read more &gt;</p></div></a>
+                
+                <div class="readMore courseContainerReadMore">
+                <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
+                </div>
               </div>`
             )
 
@@ -117,7 +120,10 @@ export class Index extends Component{
                 <div class="comments">
                   <p class="font_p_xl fontWaitBold">${IndexSubbommentThoughtness[0]}</p>
                   <p class="font_p_m fontWaitBoldNormal">${IndexSubbommentThoughtness[1]}</p>
-                  <a href="../pages/About.html#${textIdName[2]}"><p class="font_p_L fontWaitBold">${IndexSubbommentThoughtness[2]}</p></a>
+
+                  <div class="readMore SubcommentTReadMore">
+                  <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
+                  </div>
                 </div>
                 <div class="images">
                   ${IndexSubbommentThoughtness[3]}
@@ -136,7 +142,11 @@ export class Index extends Component{
                 <div class="comments">
                   <p class="font_p_xl fontWaitBold">${IndexSubbomment[0]}</p>
                   <p class="font_p_m fontWaitBoldNormal">${IndexSubbomment[1]}</p>
-                  <a href="../pages/About.html#${textIdName[3]}"><p class="font_p_L fontWaitBold">${IndexSubbomment[2]}</p></a>
+
+                  <div class="readMore SubcommentCReadMore">
+                  <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
+                  </div>
+
                 </div>
                 <div class="images">
                   ${IndexSubbomment[3]}
@@ -157,8 +167,9 @@ export class Index extends Component{
                   ${BananaPic[6]}
                 </div>
                 <div class="cardContainer"></div>
-                <div class="readMore">
-                  <a href="../pages/Voice.html"><p class="font_p_L fontWaitBold">Read more ></p></a>
+
+                <div class="readMore voiceCReadMore">
+                  <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
                 </div>
               </div>`
             )

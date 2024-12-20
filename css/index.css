@@ -321,6 +321,7 @@ main {
 }
 #app main #indexPage__contents .indexPage__container .Course .courseContainer {
   width: 80%;
+  height: auto;
   margin: 2rem auto;
 }
 #app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseTitle {
@@ -368,8 +369,11 @@ main {
   left: -15%;
   transform: rotate(-10deg);
 }
-#app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseReadMore {
-  text-align: right;
+#app main #indexPage__contents .indexPage__container .Course .courseContainer .courseContainerReadMore {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 100%;
+  transform: translateX(-100%);
 }
 #app main #indexPage__contents .indexPage__container .SubcommentThoughtness {
   place-content: center;
@@ -390,6 +394,11 @@ main {
   left: 95%;
   mix-blend-mode: darken;
 }
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .SubcommentTReadMore {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 0;
+}
 #app main #indexPage__contents .indexPage__container .Subcomment {
   place-content: center;
 }
@@ -408,8 +417,13 @@ main {
   position: absolute;
   top: -27%;
 }
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .SubcommentCReadMore {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 0;
+}
 #app main #indexPage__contents .indexPage__container .voiceContainer {
-  width: 100%;
+  width: 90%;
   margin: auto;
   padding: 2rem 0;
 }
@@ -425,27 +439,35 @@ main {
 #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   row-gap: 65px;
 }
 #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
-  width: 520px;
+  width: 560px;
+  height: auto;
 }
 #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard p {
   text-align: center;
   margin: auto;
 }
-#app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard iframe {
-  width: 100%;
-  height: 293px;
-}
-#app main #indexPage__contents .indexPage__container .voiceContainer .readMore {
-  width: 90%;
-  text-align: right;
-  margin: auto;
+#app main #indexPage__contents .indexPage__container .voiceContainer .voiceCReadMore {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 100%;
+  transform: translateX(-100%);
 }
 #app main #indexPage__contents .odd {
   background-color: #F2F0E9;
+}
+#app main .readMore {
+  width: 308px;
+  height: 62px;
+  text-align: right;
+  margin: auto;
+}
+#app main .readMore button {
+  width: 100%;
+  font-family: "Noto Sans JP", sans-serif;
 }
 @media only screen and (max-width: 835px) {
   #app main #heroSection .heroMain {
@@ -597,10 +619,6 @@ main {
     background-color: #FCFCFC;
     border-radius: 10px;
     position: relative;
-  }
-  #app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseReadMore {
-    width: 100%;
-    text-align: right;
   }
 }
 @media only screen and (max-width: 424px) {

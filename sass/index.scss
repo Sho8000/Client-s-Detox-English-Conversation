@@ -345,6 +345,7 @@ main{
           flex-direction: column;
         .courseContainer{
             width: 80%;
+            height: auto;
             margin: 2rem auto;
             .CourseTitle{
               text-align: center;
@@ -393,8 +394,11 @@ main{
                 }
               }
             }
-            .CourseReadMore{
-              text-align: right;
+            .courseContainerReadMore{
+              margin-top: 48px;
+              margin-bottom: 48px;
+              margin-left: 100%;
+              transform: translateX(-100%);
             }
           }
         }
@@ -415,6 +419,11 @@ main{
                 mix-blend-mode: darken;
               }
             }
+            .SubcommentTReadMore{
+              margin-top: 48px;
+              margin-bottom: 48px;
+              margin-left: 0;
+            }
           }
         }
         .Subcomment{
@@ -433,10 +442,15 @@ main{
                 top: -27%;
               }
             }
+            .SubcommentCReadMore{
+              margin-top: 48px;
+              margin-bottom: 48px;
+              margin-left: 0;
+            }
           }
         }
         .voiceContainer{
-          width: 100%;
+          width: 90%;
           margin: auto;
           padding: 2rem 0;
           .titleContainer{
@@ -451,25 +465,24 @@ main{
           .cardContainer{
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-between;
             row-gap: 65px;
             .voiceCard{
-              width: 520px;
+              width: 560px;
+              height: auto;
               p{
                 text-align: center;
                 margin: auto;
               }  
-              iframe{
-                width: 100%;
-                height: 293px;
-              }
             }
           }
-          .readMore{
-            width: 90%;
-            text-align: right;
-            margin: auto;
-          }  
+          .voiceCReadMore{
+            margin-top: 48px;
+            margin-bottom: 48px;
+            margin-left: 100%;
+            transform: translateX(-100%);
+          }
+
         }
       }
       .odd{
@@ -477,6 +490,16 @@ main{
       }  
     }
 
+    .readMore{
+      width: 308px;
+      height: 62px;
+      text-align: right;
+      margin: auto;
+      button{
+        width: 100%;
+        font-family: 'Noto Sans JP', sans-serif;
+      }
+    }  
 
     //Responsice for heroSection
     #heroSection{
@@ -649,10 +672,6 @@ main{
                   border-radius: 10px;
                   position: relative;
                 }
-              }
-              .CourseReadMore{
-                width: 100%;
-                text-align: right;
               }
             }
           }
