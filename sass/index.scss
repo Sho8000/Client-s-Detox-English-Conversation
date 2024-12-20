@@ -98,6 +98,9 @@ main{
       width: 100% !important;      
     }
 
+    a:visited{
+      color: black;
+    }
 
     width: 100%;
     height: 125px;
@@ -106,6 +109,7 @@ main{
     padding-top: 15px;
     background-color: $HeaderBG;
     border-bottom: 2px $headerUnderline solid;
+
     .header__icons__area{
       width: 90%;
       margin: 0 auto 24px;
@@ -632,12 +636,12 @@ main{
                 margin-bottom: 60px;
               }
               .CourseList{
-                width: 100%;
+                width: auto;
                 display: flex;
                 justify-content: left;
                 column-gap: 40px;
                 row-gap: 30px;
-                margin: 0 0 0 4rem;
+                margin: 0 4rem;
                 .courseCard{
                   width: 300px;
                   height: 320px;
@@ -844,6 +848,10 @@ main{
 
   /////Footer//////////
   #footer{
+    a:visited{
+      color: white;
+    }
+
     width: 100%;
     height: 140px;
     background-color: $FooterBG;

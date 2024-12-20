@@ -38,7 +38,7 @@ export class Footer extends Component{
       children = $(
         `<footer id="${BASE_CLASS}">
           <div class="${BASE_CLASS}__container">
-            <p class="${BASE_CLASS}__title font_p_xl fontWaitBold">${this.websiteName}</p>
+            <p class="${BASE_CLASS}__title font_p_xl fontWaitBold"><a href="${IndexHTML}">${this.websiteName}</a></p>
             <div class="${BASE_CLASS}__ulContainer">
               <ul class="${BASE_CLASS}__ul">
                 <li class="${BASE_CLASS}__li"><a href="${IndexHTML}" class="font_p_m fontWaitBold">${NavTitle[0]}</a></li>

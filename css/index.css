@@ -106,6 +106,9 @@ main {
     width: 100% !important;
   }
 }
+#app #header a:visited {
+  color: black;
+}
 #app #header .header__icons__area {
   width: 90%;
   margin: 0 auto 24px;
@@ -581,12 +584,12 @@ main {
     margin-bottom: 60px;
   }
   #app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: left;
     column-gap: 40px;
     row-gap: 30px;
-    margin: 0 0 0 4rem;
+    margin: 0 4rem;
   }
   #app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseList .courseCard {
     width: 300px;
@@ -756,6 +759,9 @@ main {
   background-color: #0095A7;
   color: white;
   place-content: center;
+}
+#app #footer a:visited {
+  color: white;
 }
 #app #footer .footer__container {
   width: 90%;
