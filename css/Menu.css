@@ -239,6 +239,9 @@
     left: 80%;
     width: 50px;
   }
+  #Menu .Menu__subCourse .Menu__subCouse__card .Menu__subCouse__card__comment {
+    min-height: 0;
+  }
 }
 
 /*# sourceMappingURL=Menu.css.map */
