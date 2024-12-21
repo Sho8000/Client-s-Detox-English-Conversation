@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #Menu {
   width: 100vw;
   min-height: 100vh;
@@ -79,17 +80,29 @@
 }
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mperiod {
   width: fit-content;
+  height: 40px;
   padding: 0 1rem;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
 }
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mperiod p {
+  transform: translateY(8px);
+}
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .McouseExp .McouseExp__ul {
-  padding-left: 25px;
-  padding-right: 5px;
+  padding: 0px;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .McouseExp .McouseExp__ul li {
+  padding-left: 16px;
+  list-style: none;
+}
+#Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .McouseExp .McouseExp__ul li:before {
+  content: "•";
+  padding: 0 5px;
 }
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__courseCardContainer .Menu__mainCouse__card__courseCard .Mcomment {
-  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 16px;
 }
 #Menu .Menu__mainCouse .Menu__mainCouse__card .Menu__mainCouse__card__notice {
   width: 90%;

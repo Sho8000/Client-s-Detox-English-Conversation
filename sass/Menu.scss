@@ -80,19 +80,31 @@
           }
           .Mperiod{
             width: fit-content;
+            height: 40px;
             padding: 0 1rem;
             margin: auto;
-            border-radius: 15px;
+            border-radius: 20px;
             color: white;
+            p{
+              transform: translateY(8px);
+            }
           }
           .McouseExp{
             .McouseExp__ul{
-              padding-left: 25px;
-              padding-right: 5px;
+              padding: 0px;
+              li{
+                padding-left: 16px;
+                list-style: none;
+              }
+              li:before{
+                content: "•";
+                padding: 0 5px;
+              }                  
             }
           }
           .Mcomment{
-            padding-left: 10px;
+            padding-top: 10px;
+            padding-left: 16px;
           }
         }
       }
