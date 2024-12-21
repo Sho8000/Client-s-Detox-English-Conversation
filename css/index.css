@@ -660,6 +660,7 @@ main {
   #app main #indexPage__contents .indexPage__container .Course .courseContainer .CourseListContainer .CourseList {
     width: 900px;
     padding-top: 30px;
+    padding-right: 40px;
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
@@ -777,11 +778,24 @@ main {
     transform: translate(50%, -90%);
   }
 }
-@media only screen and (max-width: 549px) {
+@media only screen and (max-width: 1290px) {
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+  }
+  #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
+    width: 560px;
+    height: auto;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 675px) {
   #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer {
     row-gap: 45px;
   }
   #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard {
+    width: auto;
     justify-items: center;
   }
   #app main #indexPage__contents .indexPage__container .voiceContainer .cardContainer .voiceCard p {
@@ -794,9 +808,10 @@ main {
     margin: auto;
   }
   #app main #indexPage__contents .indexPage__container .voiceContainer .readMore {
-    width: 90%;
-    text-align: right;
-    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 100%;
+    transform: translateX(-100%);
   }
 }
 @media only screen and (max-width: 659px) {

@@ -719,6 +719,7 @@ main{
                 .CourseList{
                   width: 900px;
                   padding-top: 30px;
+                  padding-right: 40px;
                   display: flex;
                   justify-content: space-between;
                   column-gap: 40px;
@@ -864,13 +865,32 @@ main{
       }
     }
     //For `Voice`
-    @media only screen and (max-width:549px){
+    @media only screen and (max-width:1290px){
+      #indexPage__contents{
+        .indexPage__container{
+          .voiceContainer{
+            .cardContainer{
+              display: flex;
+              flex-direction: column;
+              row-gap: 65px;
+              .voiceCard{
+                width: 560px;
+                height: auto;
+                margin: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media only screen and (max-width:675px){
       #indexPage__contents{
         .indexPage__container{
           .voiceContainer{
             .cardContainer{
               row-gap: 45px;
               .voiceCard{
+                width: auto;
                 justify-items: center;
                 p{
                   text-align: center;
@@ -884,9 +904,10 @@ main{
               }
             }
             .readMore{
-              width: 90%;
-              text-align: right;
-              margin: auto;
+              margin-top: 48px;
+              margin-bottom: 48px;
+              margin-left: 100%;
+              transform: translateX(-100%);
             }  
           }
         }
