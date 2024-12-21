@@ -97,8 +97,10 @@
         }
       }
       .Menu__mainCouse__card__notice{
+        width: 90%;
         grid-area: notice;
         text-align: center;
+        margin: auto;
         .font_p_m{
           color: red;
         }
@@ -233,6 +235,7 @@
           background-color: #DCDAD4;
           place-content: center;
           padding-left: 0;
+          margin-bottom: 0;
           .font_p_xl{
             padding-left: 2rem;
             margin: auto;
@@ -241,7 +244,8 @@
         .Menu__subCouse__card__img{
           grid-area: img;
           justify-self: center;
-          width: 90%;
+          width: calc(100% - 80px);
+          padding: 40px 40px 0 40px;
           position: relative;
           margin-bottom: 2rem;
           img{
@@ -251,12 +255,36 @@
           :nth-child(2){
             position: absolute;
             top: 30%;
-            left: 80%;
+            left: 70%;
             width: 50px;
           }
         }
+        .Menu__subCouse__card__period{
+          .Speriod{
+            width: fit-content;
+            border-radius: 15px;
+            padding: 0 1.5rem;
+            .font_p_L{
+              color: white;
+              margin: 0 auto 24px;
+            }
+          }
+        }
+        .Menu__subCouse__card__Exp{
+          width: calc(100% - 80px);
+          .SExp{
+            img{
+              width: 24px;
+              height: 24px;
+              display: inline;
+            }
+          }
+        }
         .Menu__subCouse__card__comment{
+          width: calc(100% - 80px);
           min-height: 0;
+          padding: 16px 0 40px 0;
+          p{margin: 0;}
         }  
       }
     } 
