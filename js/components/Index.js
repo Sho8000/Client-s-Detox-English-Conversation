@@ -73,8 +73,9 @@ export class Index extends Component{
                 <div class="CourseTitle">
                   <p class="font_p_xl fontWaitBold">コース</p>
                 </div>
-                <div class="CourseList"></div>
-                
+                <div class="CourseListContainer">
+                  <div class="CourseList"></div>
+                </div>
                 <div class="readMore courseContainerReadMore">
                 <button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button>
                 </div>
