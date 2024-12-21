@@ -74,6 +74,7 @@
       position: relative;
       .pic{
         height: 100%;
+        margin-bottom: 80px;
         position: relative;
         &::before{
           content: "";
@@ -87,6 +88,12 @@
           transform: translate(-50%,-100%);
           mix-blend-mode: darken;
           position: absolute;
+        }
+      }
+      .text{
+        margin-bottom: 80px;
+        p{
+          margin: 0;
         }
       }
     }
