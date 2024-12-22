@@ -112,7 +112,12 @@ export class Index extends Component{
               eachContents.find(".CourseList").append(courseContents);
             }
 
-            children.find(".Course").append(eachContents)           
+            children.find(".Course").append(eachContents);
+            
+            $(eachContents).on(`click`,()=>{
+              window.location.replace(`../pages/Menu.html`);
+            });
+              
             break;
 
           case "SubcommentThoughtness":
@@ -134,7 +139,12 @@ export class Index extends Component{
                 </div>
               </div>`
             )
-            children.find(".SubcommentThoughtness").append(eachContents)            
+            children.find(".SubcommentThoughtness").append(eachContents);
+
+            $(eachContents).on(`click`,()=>{
+              window.location.replace(`../pages/About.html#${textIdName[2]}`);
+            });
+                         
             break;
 
           case "Subcomment":
@@ -157,7 +167,12 @@ export class Index extends Component{
                 </div>
               </div>`
             )
-            children.find(".Subcomment").append(eachContents)
+            children.find(".Subcomment").append(eachContents);
+
+            $(eachContents).on(`click`,()=>{
+              window.location.replace(`../pages/About.html#${textIdName[3]}`);
+            });
+
             break;
 
           case "Voice":
@@ -184,7 +199,12 @@ export class Index extends Component{
               eachContents.find(".cardContainer").append(addIndexVoiceCard)
             }
 
-            children.find(".Voice").append(eachContents)
+            children.find(".Voice").append(eachContents);      
+
+            $(eachContents).on(`click`,()=>{
+              window.location.replace(`../pages/Voice.html`);
+            });
+
             
             break;
 
