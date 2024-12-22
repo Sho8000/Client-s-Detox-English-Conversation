@@ -296,6 +296,8 @@ main{
         }
         .Maincomment{
           display: flex;
+          background-image: url(../resource/banana-background.png);
+          background-size: contain;
           .comments{
             position: relative;
             margin-top: 2rem;

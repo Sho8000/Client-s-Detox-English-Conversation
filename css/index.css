@@ -271,6 +271,8 @@ main {
 }
 #app main #indexPage__contents .indexPage__container .Maincomment {
   display: flex;
+  background-image: url(../resource/banana-background.png);
+  background-size: contain;
 }
 #app main #indexPage__contents .indexPage__container .Maincomment .comments {
   position: relative;

@@ -185,6 +185,9 @@
     left: 100%;
     transform: translate(-50%, -50%);
   }
+  #About .aboutFlexContainer .aboutThoughtRoot .pic {
+    margin-bottom: 0px;
+  }
   #About .aboutYoutubeContainer .youtubeTitle {
     display: flex;
     align-items: center;
