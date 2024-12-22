@@ -234,23 +234,6 @@ main{
     //can't swipe on the video
     //so added transparent box to
     //add the swipe function on video
-    .filterLeft{
-      position: absolute;
-      width: 120px;
-      height: 150px;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: transparent;
-    }
-    .filterRight{
-      position: absolute;
-      width: 120px;
-      height: 150px;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 0;
-      background-color: transparent;
-    }
   }
 
   swiper-slide img {
@@ -948,16 +931,6 @@ main{
       //can't swipe on the video
       //so added transparent box to
       //add the swipe function on video
-      .filterLeft{
-        position: absolute;
-        width: 60px;
-        height: 70px;
-      }
-      .filterRight{
-        position: absolute;
-        width: 60px;
-        height: 70px;
-      }
     }  
     swiper-container {
       width: 100%;

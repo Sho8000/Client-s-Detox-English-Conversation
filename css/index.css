@@ -213,23 +213,6 @@ main {
   height: 300px;
   position: relative;
 }
-#app swiper-slide .filterLeft {
-  position: absolute;
-  width: 120px;
-  height: 150px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
-}
-#app swiper-slide .filterRight {
-  position: absolute;
-  width: 120px;
-  height: 150px;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  background-color: transparent;
-}
 #app swiper-slide img {
   display: block;
   width: 100%;
@@ -835,16 +818,6 @@ main {
   #app swiper-slide iframe {
     width: 300px;
     height: auto;
-  }
-  #app swiper-slide .filterLeft {
-    position: absolute;
-    width: 60px;
-    height: 70px;
-  }
-  #app swiper-slide .filterRight {
-    position: absolute;
-    width: 60px;
-    height: 70px;
   }
   #app swiper-container {
     width: 100%;
