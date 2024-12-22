@@ -35,7 +35,16 @@ export class About extends Component{
             </div>
           </div>`
         )
+
         children.find(".aboutFlexContainer").append(addAboutFlexContainer);
+
+        if(textClassName[i] === "aboutCALife"){
+          children.find(`.${textClassName[i]}`).find(".text").append(BananaPic[3])
+        } else if(textClassName[i] === "aboutThought"){
+          children.find(`.${textClassName[i]}`).find(".pic").append(BananaPic[0])
+        } else if(textClassName[i] === "aboutThoughtRoot"){
+          children.find(`.${textClassName[i]}`).find(".pic").append(BananaPic[1]);
+        }
       }
 
       //Youtube channel
@@ -48,5 +57,85 @@ export class About extends Component{
       this.parentElement.append(children)
 
     }
+
+    //animation
+    var tlBananaFly = gsap.timeline();
+    var tlBananaBud = gsap.timeline();
+    var tlThoughtnessBanana = gsap.timeline();
+    var tlBananahalf = gsap.timeline();
+
+    var aboutBFly = $("#About").find(".bananaFly");
+    var aboutBBud  = $("#About").find(".bananaBud");
+    var aboutBNomal  = $("#About").find(".bananaNomal");
+    var aboutBHalf = $("#About").find(".bananaHalfPeeled");
+  
+    tlBananaFly.to(aboutBFly,{
+      rotation: 15,
+      duration:3,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+      repeatDelay: 1,
+    })
+
+    tlBananaBud.to(aboutBBud,{
+      y: 10,
+      duration:5,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+      repeatDelay: 1,
+    })
+
+    tlThoughtnessBanana.to(aboutBNomal,{
+      x: -20,
+      duration:3,
+      repeat:-1,
+      ease: "power4",
+      yoyo: true,
+    })
+
+    tlBananahalf.from(aboutBHalf,{
+      scaleX: 1,
+      ease: "power1.inOut",
+      duration:1.5,
+    }).to(aboutBHalf,{
+      scaleX: -1,
+      duration:1.5,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+    })
+
+/*     tlThoughtnessBanana.from(".bananaNomal",{
+      x: 0,
+      stagger: 0,
+      duration:1,
+    },"=1").to(".bananaNomal",{
+      x: 10,
+      duration: 2, 
+      repeat:-1,
+      ease: "power4",
+      yoyo: true,
+      delay:2,
+    },"=1")
+ *//*     tlCABanana.to(".FirstFade",{
+      scaleY: 0,
+      stagger: 0,
+      duration:0.1,
+    }).then(()=>{
+      $(".FirstFade").removeClass("FirstOpacity")
+    }).then(()=>{
+      tlFirstFade.from(".FirstFade",{
+        scaleY: 0,
+        stagger: 0,
+        duration:0.1,
+      }).to(".FirstFade",{
+        scaleY: 1,
+        stagger: 0.2,
+        duration: 0.5,  
+      })
+    })
+  */   
   }
 }

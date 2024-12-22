@@ -38,18 +38,11 @@
 #About .aboutFlexContainer .aboutCALife .text {
   position: relative;
 }
-#About .aboutFlexContainer .aboutCALife .text::before {
-  content: "";
-  width: 64px;
-  height: 50px;
-  background-image: url(../resource/flying.svg);
-  background-size: contain;
-  background-position: center;
-  top: 2%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: darken;
+#About .aboutFlexContainer .aboutCALife .text .bananaFly {
   position: absolute;
+  top: -5%;
+  left: 100%;
+  transform: translateX(-150%);
 }
 #About .aboutFlexContainer .aboutThought {
   position: relative;
@@ -58,18 +51,13 @@
   height: 100%;
   position: relative;
 }
-#About .aboutFlexContainer .aboutThought .pic::before {
-  content: "";
-  width: 40px;
-  height: 50px;
-  background-image: url(../resource/normal.svg);
-  background-size: cover;
-  background-position: center;
+#About .aboutFlexContainer .aboutThought .pic .bananaNomal {
+  position: absolute;
+  width: auto;
   top: 70%;
   left: 100%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50px, -50%);
   mix-blend-mode: darken;
-  position: absolute;
 }
 #About .aboutFlexContainer .aboutThoughtRoot {
   position: relative;
@@ -79,18 +67,13 @@
   margin-bottom: 80px;
   position: relative;
 }
-#About .aboutFlexContainer .aboutThoughtRoot .pic::before {
-  content: "";
-  width: 45px;
-  height: 45px;
-  background-image: url(../resource/bud.svg);
-  background-size: cover;
-  background-position: center;
-  top: 0%;
-  left: 10%;
-  transform: translate(-50%, -100%);
-  mix-blend-mode: darken;
+#About .aboutFlexContainer .aboutThoughtRoot .pic .bananaBud {
   position: absolute;
+  width: auto;
+  top: 0;
+  left: 5%;
+  transform: translateY(-50px);
+  mix-blend-mode: darken;
 }
 #About .aboutFlexContainer .aboutThoughtRoot .text {
   margin-bottom: 80px;
@@ -166,24 +149,11 @@
   #About .aboutFlexContainer .aboutCALife {
     position: relative;
   }
-  #About .aboutFlexContainer .aboutCALife .text::before {
-    content: "";
-    top: 2%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    mix-blend-mode: darken;
-    position: absolute;
-  }
   #About .aboutFlexContainer .aboutThought {
     position: relative;
   }
   #About .aboutFlexContainer .aboutThought .pic {
     position: relative;
-  }
-  #About .aboutFlexContainer .aboutThought .pic::before {
-    top: 70%;
-    left: 100%;
-    transform: translate(-50%, -50%);
   }
   #About .aboutFlexContainer .aboutThoughtRoot .pic {
     margin-bottom: 0px;

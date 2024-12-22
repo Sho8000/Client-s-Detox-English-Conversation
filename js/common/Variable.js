@@ -2,14 +2,14 @@
 //0:nomal 1:bud 2:cute 3:flying
 //4:giggling 5:half-peeled 6:peeled 7:talking
 export const BananaPic = [
-  `<img src="../resource/normal.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/bud.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/cute.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/flying.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/giggling.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/half-peeled.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;">`,
-  `<img src="../resource/Speech\ bubble.svg" alt="banana" style="height: 50px;">`
+  `<img src="../resource/normal.svg" alt="banana" style="height: 50px;" class="bananaNomal">`,
+  `<img src="../resource/bud.svg" alt="banana" style="height: 50px;" class="bananaBud">`,
+  `<img src="../resource/cute.svg" alt="banana" style="height: 50px;" class="bananaCute">`,
+  `<img src="../resource/flying.svg" alt="banana" style="height: 50px;" class="bananaFly">`,
+  `<img src="../resource/giggling.svg" alt="banana" style="height: 50px;" class="bananaGiggling">`,
+  `<img src="../resource/half-peeled.svg" alt="banana" style="height: 50px;" class="bananaHalfPeeled">`,
+  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;" class="bananaHalfPeeled">`,
+  `<img src="../resource/Speech\ bubble.svg" alt="banana" style="height: 50px;" class="bananaTalking">`
 ]
 
 //Header and Footer

@@ -35,18 +35,11 @@
       position: relative;
       .text{
         position: relative;
-        &::before{
-          content: "";
-          width: 64px;
-          height: 50px;
-          background-image: url(../resource/flying.svg);
-          background-size: contain;
-          background-position: center;
-          top: 2%;
-          left: 85%;
-          transform: translate(-50%,-50%);
-          mix-blend-mode: darken;
+        .bananaFly{
           position: absolute;
+          top: -5%;
+          left: 100%;
+          transform: translateX(-150%);
         }
       }
     }
@@ -55,18 +48,13 @@
       .pic{
         height: 100%;
         position: relative;
-        &::before{
-          content: "";
-          width: 40px;
-          height: 50px;
-          background-image: url(../resource/normal.svg);
-          background-size: cover;
-          background-position: center;
+        .bananaNomal{
+          position: absolute;
+          width: auto;
           top: 70%;
           left: 100%;
-          transform: translate(-50%,-50%);
+          transform: translate(-50px,-50%);
           mix-blend-mode: darken;
-          position: absolute;
         }
       }
     }
@@ -76,18 +64,13 @@
         height: 100%;
         margin-bottom: 80px;
         position: relative;
-        &::before{
-          content: "";
-          width: 45px;
-          height: 45px;
-          background-image: url(../resource/bud.svg);
-          background-size: cover;
-          background-position: center;
-          top: 0%;
-          left: 10%;
-          transform: translate(-50%,-100%);
-          mix-blend-mode: darken;
+        .bananaBud{
           position: absolute;
+          width: auto;
+          top: 0;
+          left: 5%;
+          transform: translateY(-50px);
+          mix-blend-mode: darken;
         }
       }
       .text{
@@ -166,26 +149,11 @@
       }
       .aboutCALife{
         position: relative;
-        .text{
-          &::before{
-            content: "";
-            top: 2%;
-            left: 90%;
-            transform: translate(-50%,-50%);
-            mix-blend-mode: darken;
-            position: absolute;
-          }
-        }  
       }
       .aboutThought{
         position: relative;
         .pic{
           position: relative;
-          &::before{
-            top: 70%;
-            left: 100%;
-            transform: translate(-50%,-50%);
-          }
         }
       }
       .aboutThoughtRoot{
@@ -230,4 +198,7 @@
       }
     }  
   }
+
+  //animation
+
 }
