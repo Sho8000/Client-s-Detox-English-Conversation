@@ -98,6 +98,9 @@ main{
       width: 100% !important;      
     }
 
+    a{
+      color: black;
+    }
     a:visited{
       color: black;
     }
@@ -967,6 +970,9 @@ main{
 
   /////Footer//////////
   #footer{
+    a{
+      color: white;
+    }
     a:visited{
       color: white;
     }

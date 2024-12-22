@@ -106,6 +106,9 @@ main {
     width: 100% !important;
   }
 }
+#app #header a {
+  color: black;
+}
 #app #header a:visited {
   color: black;
 }
@@ -858,6 +861,9 @@ main {
   background-color: #0095A7;
   color: white;
   place-content: center;
+}
+#app #footer a {
+  color: white;
 }
 #app #footer a:visited {
   color: white;
