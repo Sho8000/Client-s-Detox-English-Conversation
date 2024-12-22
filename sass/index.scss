@@ -301,7 +301,7 @@ main{
           .comments{
             position: relative;
             margin-top: 2rem;
-            margin-left: 5rem;
+            margin-left: 10rem;
             .mainComment{
               position: absolute;
               top: 50%;
@@ -559,6 +559,17 @@ main{
 
     //Responsice for contents
     //For `Maincomment`,
+    @media only screen and (max-width:1249px){
+      #indexPage__contents{
+        .indexPage__container{
+          .Maincomment{
+            .comments{
+              margin-left: 4rem;
+            }
+          }
+        }
+      }
+    }
     @media only screen and (max-width:1149px){
       #indexPage__contents{
         .indexPage__container{

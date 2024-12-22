@@ -277,7 +277,7 @@ main {
 #app main #indexPage__contents .indexPage__container .Maincomment .comments {
   position: relative;
   margin-top: 2rem;
-  margin-left: 5rem;
+  margin-left: 10rem;
 }
 #app main #indexPage__contents .indexPage__container .Maincomment .comments .mainComment {
   position: absolute;
@@ -510,6 +510,11 @@ main {
   }
   #app main #heroSection .heroSub h1 {
     font-size: 32px;
+  }
+}
+@media only screen and (max-width: 1249px) {
+  #app main #indexPage__contents .indexPage__container .Maincomment .comments {
+    margin-left: 4rem;
   }
 }
 @media only screen and (max-width: 1149px) {
