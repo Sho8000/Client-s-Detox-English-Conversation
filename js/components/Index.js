@@ -32,14 +32,20 @@ export class Index extends Component{
               `<swiper-container class="mySwiper" navigation="true" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
                 <swiper-slide>
                   ${IndexYoutube[0]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
                 </swiper-slide>
                 <swiper-slide>
                   ${IndexYoutube[1]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
                 </swiper-slide>
                 <swiper-slide>
                   ${IndexYoutube[2]}
+                  <div class="filterLeft"></div>
+                  <div class="filterRight"></div>
                 </swiper-slide>
-                `
+              </swiper-container>`
               )
               children.find(".Youtube").append(eachContents)
             break;
@@ -209,19 +215,5 @@ export class Index extends Component{
 
       this.parentElement.append(children);
     }
-
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-      slidesPerView: 3,
-      centeredSlides: true,
-      effect: "coverflow",    //add(applying the coverflow effect)
-      pagination: {
-          el: '.swiper-pagination',
-      },
-      navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-      },
-  })
   }
 }
