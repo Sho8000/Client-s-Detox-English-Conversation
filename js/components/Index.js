@@ -9,9 +9,6 @@ export class Index extends Component{
       //add section container
       const children = $(
         `<section id="${BASE_CLASS}__contents">
-          <audio id="myAudio" autoplay>
-            <source src="../resource/airportSound.mp3" type="audio/mp3"/>
-          </audio>
           <div class="${BASE_CLASS}__container">
           </div>
         </section>`
@@ -220,9 +217,14 @@ export class Index extends Component{
     }
 
     //sound
-    const audio = document.getElementById("myAudio");
-    audio.volume = 0.2;
+/*
+          <audio id="myAudio" autoplay>
+            <source src="../resource/airportSound.mp3" type="audio/mp3">
+          </audio>
 
+const audio = document.getElementById("myAudio");
+    audio.volume = 0.2;
+ */
     //animation
     var tlBananaTalking = gsap.timeline();
     var tlBananaNomal = gsap.timeline();
