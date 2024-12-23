@@ -220,7 +220,8 @@ export class Index extends Component{
     }
 
     //sound
-    document.getElementById("myAudio").volume = 0.2;
+    const audio = document.getElementById("myAudio");
+    audio.volume = 0.2;
 
     //animation
     var tlBananaTalking = gsap.timeline();
