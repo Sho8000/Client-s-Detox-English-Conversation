@@ -215,5 +215,54 @@ export class Index extends Component{
 
       this.parentElement.append(children);
     }
+
+    //animation
+    var tlBananaTalking = gsap.timeline();
+    var tlBananaNomal = gsap.timeline();
+    var tlBananaBud = gsap.timeline();
+    var tlBananaPeeled = gsap.timeline();
+
+    var indexBTalking = $("#indexPage__contents").find(".bananaTalking");
+    var indexBNomal = $("#indexPage__contents").find(".bananaNomal");
+    var indexBBud = $("#indexPage__contents").find(".bananaBud");
+    var indexBPeeled = $("#indexPage__contents").find(".bananaPeeled");
+
+    tlBananaTalking.to(indexBTalking,{
+      rotation: 3,
+      duration:0.01,
+      repeat:100,
+    }).repeat(-1).repeatDelay(2)
+
+    tlBananaNomal.to(indexBNomal,{
+      x: -20,
+      duration:3,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+      repeatDelay:2,
+    })
+
+    tlBananaBud.to(indexBBud,{
+      y: 50,
+      opacity:0.5,
+      duration:5,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+      repeatDelay: 1,
+    })
+
+    tlBananaPeeled.from(indexBPeeled,{
+      scaleX: 1,
+      ease: "power1.inOut",
+      duration:1.5,
+    }).to(indexBPeeled,{
+      scaleX: -1,
+      duration:1.5,
+      repeat:-1,
+      ease: "power1.inOut",
+      yoyo: true,
+    })
+
   }
 }

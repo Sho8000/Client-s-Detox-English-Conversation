@@ -8,7 +8,7 @@ export const BananaPic = [
   `<img src="../resource/flying.svg" alt="banana" style="height: 50px;" class="bananaFly">`,
   `<img src="../resource/giggling.svg" alt="banana" style="height: 50px;" class="bananaGiggling">`,
   `<img src="../resource/half-peeled.svg" alt="banana" style="height: 50px;" class="bananaHalfPeeled">`,
-  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;" class="bananaHalfPeeled">`,
+  `<img src="../resource/peeled.svg" alt="banana" style="height: 50px;" class="bananaPeeled">`,
   `<img src="../resource/Speech\ bubble.svg" alt="banana" style="height: 50px;" class="bananaTalking">`
 ]
 

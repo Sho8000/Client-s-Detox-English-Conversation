@@ -407,6 +407,7 @@ main {
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .subImg {
   position: absolute;
   top: -27%;
+  mix-blend-mode: darken;
 }
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .SubcommentCReadMore {
   margin-top: 48px;

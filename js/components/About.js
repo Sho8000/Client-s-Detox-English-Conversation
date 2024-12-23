@@ -106,36 +106,5 @@ export class About extends Component{
       ease: "power1.inOut",
       yoyo: true,
     })
-
-/*     tlThoughtnessBanana.from(".bananaNomal",{
-      x: 0,
-      stagger: 0,
-      duration:1,
-    },"=1").to(".bananaNomal",{
-      x: 10,
-      duration: 2, 
-      repeat:-1,
-      ease: "power4",
-      yoyo: true,
-      delay:2,
-    },"=1")
- *//*     tlCABanana.to(".FirstFade",{
-      scaleY: 0,
-      stagger: 0,
-      duration:0.1,
-    }).then(()=>{
-      $(".FirstFade").removeClass("FirstOpacity")
-    }).then(()=>{
-      tlFirstFade.from(".FirstFade",{
-        scaleY: 0,
-        stagger: 0,
-        duration:0.1,
-      }).to(".FirstFade",{
-        scaleY: 1,
-        stagger: 0.2,
-        duration: 0.5,  
-      })
-    })
-  */   
   }
 }
