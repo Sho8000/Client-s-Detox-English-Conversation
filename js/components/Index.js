@@ -8,7 +8,10 @@ export class Index extends Component{
     if($("#app").hasClass("indexPage")){
       //add section container
       const children = $(
-        `<section id="${BASE_CLASS}__contents">
+        `<audio id="myAudio">
+            <source src="../resource/airportSound.mp3" type="audio/mp3">
+          </audio>
+          <section id="${BASE_CLASS}__contents">
           <div class="${BASE_CLASS}__container">
           </div>
         </section>`
@@ -114,7 +117,7 @@ export class Index extends Component{
 
             children.find(".Course").append(eachContents);
             
-            $(eachContents).on(`click`,()=>{
+            $(eachContents).find(".readMore").on(`click`,()=>{
               window.location.replace(`../pages/Menu.html`);
             });
               
@@ -141,7 +144,7 @@ export class Index extends Component{
             )
             children.find(".SubcommentThoughtness").append(eachContents);
 
-            $(eachContents).on(`click`,()=>{
+            $(eachContents).find(".readMore").on(`click`,()=>{
               window.location.replace(`../pages/About.html#${textIdName[2]}`);
             });
                          
@@ -169,7 +172,7 @@ export class Index extends Component{
             )
             children.find(".Subcomment").append(eachContents);
 
-            $(eachContents).on(`click`,()=>{
+            $(eachContents).find(".readMore").on(`click`,()=>{
               window.location.replace(`../pages/About.html#${textIdName[3]}`);
             });
 
@@ -214,17 +217,14 @@ export class Index extends Component{
       }
 
       this.parentElement.append(children);
-    }
 
     //sound
-/*
-          <audio id="myAudio" autoplay>
-            <source src="../resource/airportSound.mp3" type="audio/mp3">
-          </audio>
+    const audio = document.getElementById("myAudio");
+    audio.volume = 0.3;
+    audio.play();
 
-const audio = document.getElementById("myAudio");
-    audio.volume = 0.2;
- */
+    }
+
     //animation
     var tlBananaTalking = gsap.timeline();
     var tlBananaNomal = gsap.timeline();
