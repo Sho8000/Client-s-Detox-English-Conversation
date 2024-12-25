@@ -374,6 +374,9 @@ main {
   gap: 60px;
   margin: auto;
 }
+#app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .comments {
+  width: 568px;
+}
 #app main #indexPage__contents .indexPage__container .SubcommentThoughtness .SubcommentThoughtnessContainer .images {
   position: relative;
 }
@@ -396,13 +399,21 @@ main {
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer {
   width: 75%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 60px;
   margin: auto;
 }
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .comments {
+  align-self: flex-start;
+}
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images {
+  width: 456px;
   order: -1;
   position: relative;
+}
+#app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .img {
+  width: 100%;
 }
 #app main #indexPage__contents .indexPage__container .Subcomment .SubcommentContainer .images .subImg {
   position: absolute;

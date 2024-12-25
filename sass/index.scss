@@ -402,6 +402,9 @@ main{
             align-items: center;
             gap: 60px;
             margin: auto;
+            .comments{
+              width: 568px;
+            }
             .images{
               position: relative;
               .subImg{
@@ -425,12 +428,20 @@ main{
           .SubcommentContainer{
             width: 75%;
             display: flex;
+            justify-content: space-between;
             align-items: center;
             gap: 60px;
             margin: auto;
+            .comments{
+              align-self: flex-start;
+            }
             .images{
+              width: 456px;
               order: -1;
               position: relative;
+              .img{
+                width: 100%;
+              }
               .subImg{
                 position: absolute;
                 top: -27%;
