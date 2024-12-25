@@ -130,6 +130,11 @@ main {
   align-items: center;
   position: relative;
 }
+#app #header .header__nav__PC img {
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%);
+}
 #app #header .header__nav__PC .header__ulContainer .header__ul {
   display: flex;
   align-items: center;

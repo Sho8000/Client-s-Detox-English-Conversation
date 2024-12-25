@@ -131,6 +131,11 @@ main{
       justify-content: space-between;
       align-items: center;
       position: relative;
+      img{
+        position: absolute;
+        top: 0%;
+        transform: translateY(-50%);
+      }
       .header__ulContainer{
         .header__ul{
           display: flex;

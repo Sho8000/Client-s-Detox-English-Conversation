@@ -43,7 +43,8 @@ export class Header extends Component{
         </div>
       </div>
       <nav class="${BASE_CLASS}__nav__PC">
-        <p class="${BASE_CLASS}__title font_p_xl fontWaitBold"><a href="${IndexHTML}">${this.websiteName}</a></p>
+        <a href="${IndexHTML}"><img src="../resource/AkiFAiRWAY.png" alt="youtube"></a>
+        <p class="${BASE_CLASS}__title font_p_xl fontWaitBold"></p>
         <div class="${BASE_CLASS}__ulContainer">
           <ul class="${BASE_CLASS}__ul">
             <li class="${BASE_CLASS}__li"><a href="${IndexHTML}" class="font_p_m fontWaitBold">${NavTitle[0]}</a></li>
