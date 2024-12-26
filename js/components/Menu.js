@@ -71,5 +71,17 @@ export class Menu extends Component{
         children.find(`.Menu__mainCouse__card__showMore`).addClass(`hide`)
       })
     }
+    
+    //animation
+    var tlBananaTalking = gsap.timeline();
+
+    var MenuBTalking = $("#Menu").find(".bananaTalking");
+
+    tlBananaTalking.to(MenuBTalking,{
+      rotation: -4,
+      duration:0.01,
+      repeat:100,
+    }).repeat(-1).repeatDelay(2)
+
   }
 }
