@@ -526,7 +526,7 @@ main {
   #app main #indexPage__contents .indexPage__container .Maincomment {
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 1100px;
   }
   #app main #indexPage__contents .indexPage__container .Maincomment .comments {
     position: relative;
@@ -553,7 +553,7 @@ main {
   #app main #indexPage__contents .indexPage__container .Maincomment .comments .lineBtn {
     position: absolute;
     z-index: 2;
-    bottom: -160px;
+    bottom: -200px;
     width: 142px;
     line-height: 45px;
     border-radius: 5px;
@@ -578,7 +578,7 @@ main {
   #app main #indexPage__contents .indexPage__container .Maincomment {
     display: flex;
     flex-direction: column;
-    height: 730px;
+    height: 830px;
   }
   #app main #indexPage__contents .indexPage__container .Maincomment .comments {
     position: relative;
@@ -601,7 +601,7 @@ main {
   #app main #indexPage__contents .indexPage__container .Maincomment .comments .lineBtn {
     position: absolute;
     z-index: 2;
-    bottom: 5%;
+    bottom: 10%;
     left: 5%;
   }
   #app main #indexPage__contents .indexPage__container .Maincomment .mainPic {
