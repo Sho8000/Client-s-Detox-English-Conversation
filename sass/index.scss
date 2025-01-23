@@ -287,6 +287,9 @@ main{
         .indexPage__items{
           min-height: 450px;
         }
+        .Youtube{
+          min-height: 550px;
+        }
         .Maincomment{
           display: flex;
           background-image: url(../resource/banana-background.png);
@@ -955,10 +958,10 @@ main{
     swiper-container {
       width: 100%;
       padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 30px;
     }  
     .Youtube{
-      min-height: 100px !important;
+      min-height: 370px !important;
     }
   }
 

@@ -45,9 +45,12 @@ export class Index extends Component{
                   <div class="filterLeft"></div>
                   <div class="filterRight"></div>
                 </swiper-slide>
-              </swiper-container>`
+              </swiper-container>
+              <div class="readMore voiceCReadMore">
+                <a href=${this.YoutubeEnglishClassLink}><button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button></a>
+              </div>`
               )
-              children.find(".Youtube").append(eachContents)
+              children.find(".Youtube").append(eachContents)  
             break;
 
           case "Maincomment":

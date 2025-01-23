@@ -261,6 +261,9 @@ main {
 #app main #indexPage__contents .indexPage__container .indexPage__items {
   min-height: 450px;
 }
+#app main #indexPage__contents .indexPage__container .Youtube {
+  min-height: 550px;
+}
 #app main #indexPage__contents .indexPage__container .Maincomment {
   display: flex;
   background-image: url(../resource/banana-background.png);
@@ -842,10 +845,10 @@ main {
   #app swiper-container {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
   #app .Youtube {
-    min-height: 100px !important;
+    min-height: 370px !important;
   }
 }
 #app #footer {

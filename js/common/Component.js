@@ -9,6 +9,7 @@ export class Component {
   #InstagramLink;
   #BlogLink;
   #GoogleReview;
+  #YoutubeEnglishClassLink;
   constructor(parentElement, props = {}, context = {}){
     this.#parentElement = parentElement;
     this.#props = props;
@@ -20,6 +21,7 @@ export class Component {
     this.#InstagramLink = "https://www.instagram.com/akifumitsukamoto777/?igsh=emkyOW1tdmpsencw&utm_source=qr";
     this.#BlogLink = "https://torch-coaching.com/blog/";
     this.#GoogleReview = "https://maps.app.goo.gl/6caGt2TinGZGS8pWA";
+    this.#YoutubeEnglishClassLink = "https://www.youtube.com/@%E7%A9%BA%E9%A3%9B%E3%81%B6%E8%8B%B1%E4%BC%9A%E8%A9%B1%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BCAKIF"
   
     this.render();
   }
@@ -62,6 +64,10 @@ export class Component {
 
   get GoogleReview(){
     return this.#GoogleReview;
+  }
+
+  get YoutubeEnglishClassLink(){
+    return this.#YoutubeEnglishClassLink;
   }
 
   render(){
