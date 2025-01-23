@@ -30,11 +30,17 @@ export const IndexContents = [
   `Subcomment`,
   `Voice`
 ];
-export const IndexYoutube = [
+/* export const IndexYoutube = [
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/NfAKW6Kh-yU?si=T1cu5npdWIsWykkd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/vQPenhOb7mQ?si=beIGSUx93hhpPQvL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
   `<iframe width="560" height="315" src="https://www.youtube.com/embed/F6GWS3wriM0?si=cCQ2obTBbvd2TfKv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-];
+]; */
+export const IndexYoutube = [
+  `<iframe width="560" height="300" src="https://www.youtube.com/embed/HzrGNrYnoHM?si=y3Hrpstd3T-8OH9x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+  `<iframe width="560" height="300" src="https://www.youtube.com/embed/d8lP8RyGC2w?si=cL-ZJ1_6tsGXXw67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+  `<iframe width="560" height="300" src="https://www.youtube.com/embed/uJUhbkLYy0Y?si=VbJ6uehqiY0hOBbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+]
+
 export const IndexCourseTitle = [
   `デトックス英会話<br>&lt; First Class &gt;`,
   `デトックス英会話<br>&lt; Business Class &gt;`,
