@@ -25,7 +25,7 @@
       gap: 1rem;
       border: 1px solid #DCDAD4;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
-      background-color: white;
+      background-color: #fefefd;
       .Menu__mainCouse__card__title{
         grid-area: title;
         height: 65px;
@@ -84,7 +84,7 @@
             padding: 0 1rem;
             margin: auto;
             border-radius: 20px;
-            color: white;
+            color: #fcfcfc;
             p{
               transform: translateY(8px);
             }
@@ -153,7 +153,7 @@
       ;
       border: 1px solid #DCDAD4;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
-      background-color: white;
+      background-color: #fefefd;
       margin: 3rem auto;
       .Menu__subCouse__card__title{
         grid-area: title;
@@ -188,7 +188,7 @@
           border-radius: 15px;
           padding: 0 1.5rem;
           .font_p_L{
-            color: white;
+            color: #fcfcfc;
             margin: 0 auto 1rem;
           }
         }
@@ -277,7 +277,7 @@
             border-radius: 15px;
             padding: 0 1.5rem;
             .font_p_L{
-              color: white;
+              color: #fcfcfc;
               margin: 0 auto 24px;
             }
           }
