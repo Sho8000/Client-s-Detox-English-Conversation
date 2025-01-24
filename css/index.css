@@ -64,6 +64,20 @@ main {
   display: none;
 }
 
+.youtubeLink {
+  height: 100px;
+  text-align: center;
+  place-content: center;
+}
+.youtubeLink .youtubeBtn {
+  background-color: #FD1513;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 10px;
+  height: 45px;
+  padding: 0 1.5rem;
+}
+
 .indexPage main #heroSection {
   height: 560px !important;
 }

@@ -46,8 +46,8 @@ export class Index extends Component{
                   <div class="filterRight"></div>
                 </swiper-slide>
               </swiper-container>
-              <div class="readMore voiceCReadMore">
-                <a href=${this.YoutubeEnglishClassLink}><button class="showMoreBtn"><p class="font_p_L fontWaitBold">${mainCouse[4]}</p></button></a>
+              <div class="youtubeLink">
+                <a href="${this.YoutubeEnglishClassLink}"><button class="youtubeBtn font_p_m fontWaitBold">Youtube チャンネルはこちら</button></a>
               </div>`
               )
               children.find(".Youtube").append(eachContents)  
