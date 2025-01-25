@@ -81,9 +81,6 @@ main {
 .indexPage main #heroSection {
   height: 560px !important;
 }
-.indexPage main #heroSection .heroMain {
-  filter: grayscale(40%) contrast(130%);
-}
 .indexPage main #heroSection .IndexPage__hero .IndexPage__hero__container {
   width: 80%;
   margin: auto;
